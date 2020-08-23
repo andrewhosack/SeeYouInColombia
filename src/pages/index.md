@@ -2,15 +2,12 @@
 templateKey: index-page
 title: See you in Colombia...
 image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
-heading: Great coffee with a conscience
+heading: Traveling in Colombia was never so easy
 subheading: The best resource for planning or traveling in Colombia
 mainpitch:
-  title: Why Kaldi
+  title: See You In Colombia!
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+     See You In Colombia is a one stop shop for all of your Colombian travel needs. We want to support your travels to Colombia before you get here, while you are here, and after you're already home!
 description: Kaldi is the ultimate spot for coffee lovers who want to learn
   about their java’s origin and support the farmers that grew it. We take coffee
   production, roasting and brewing seriously and we’re glad to pass that
