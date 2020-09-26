@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
 import logo from '../img/logo.svg'
-import secondLogo from '../img/secondLogo.png'
+import flatLogo from '../img/flatLogo.svg'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -43,7 +43,8 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Enjoy. Safe. Travel. Colombia." style={{ width: '200px', height: '120px' }} />
+              {/* <img src={logo} alt="Enjoy. Safe. Travel. Colombia." style={{ width: '200px', height: '120px' }} /> */}
+              <img src={flatLogo} alt="Enjoy. Safe. Travel. Colombia." style={{ width: '300px', height: '40px' }} />
             </Link>
             {/* Hamburger menu */}
             <div
@@ -61,19 +62,22 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/contact/examples">
+              <Link className="navbar-item" to="/">
                 Home
               </Link>
-              <Link className="navbar-item" to="/about">
+              {/* <Link className="navbar-item" to="/about">
                 Is it Safe in Colombia?
-              </Link>
-              <Link className="navbar-item" to="/products">
+              </Link> */}
+              <Link className="navbar-item" to="/contact">
                 Travel with us
               </Link>
               <Link className="navbar-item" to="/products">
                 Learn Spanish with us
               </Link>
-              <Link className="navbar-item" to="/contact">
+              {/* <Link className="navbar-item" to="/products">
+                Services
+              </Link> */}
+              <Link className="navbar-item" to="/about">
                 Who we are
               </Link>
               <Link className="navbar-item" to="/contact/examples">
