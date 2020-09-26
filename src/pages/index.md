@@ -5,9 +5,13 @@ image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
 heading: Traveling in Colombia was never so easy
 subheading: The best resource for planning or traveling in Colombia
 mainpitch:
-  title: See You In Colombia!
-  description: >
-     See You In Colombia is a one stop shop for all of your Colombian travel needs. We want to support your travels to Colombia before you get here, while you are here, and after you're already home!
+  title: Travel with Certainty
+  description: "Welcome to Enjoy. Safe. Travel. Colombia! Are you asking yourself
+    the following questions: Is it safe in Colombia? Do I need to learn Spanish
+    to travel in Colombia? What months should I make a trip? Am I at risk of
+    getting kidnapped? Through our content and our services, we want to help you
+    answer these questions, and make you feel more comfortable about the
+    Colombian culture and travel within the Colombian borders."
 description: Kaldi is the ultimate spot for coffee lovers who want to learn
   about their java’s origin and support the farmers that grew it. We take coffee
   production, roasting and brewing seriously and we’re glad to pass that
