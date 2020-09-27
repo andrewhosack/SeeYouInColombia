@@ -25,7 +25,7 @@ intro:
         Colombia? Planning to move? Or Simply want to find out more about this
         vibrant country? Let us teach you all there is to know so you can enjoy
         a trip to Colombia safely.
-    - image: /img/247support.svg
+    - image: /img/247support.png
       text: >
         We don't want to plan your trip, but we'd like to support it. Next time
         you come to Colombia, have some support in case plans don't work out.
