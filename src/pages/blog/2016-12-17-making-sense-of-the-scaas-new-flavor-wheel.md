@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Is it safe to live or travel in Colombia?
-date: 2016-12-17T15:04:10.000Z
+date: 2020-09-01T15:04:00.000Z
 description: You hear everyone talking about travel in Colombia, but is it
   actually safe to visit?
 featuredpost: false
