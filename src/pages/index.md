@@ -1,21 +1,21 @@
 ---
 templateKey: index-page
-title: See you in Colombia...
+title: Colombia Information Designed Around You
 image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
-heading: Traveling in Colombia was never so easy
-subheading: The best resource for planning or traveling in Colombia
+heading: You've never had a friend like us!
+subheading: Learn, Explore, and Prepare to enjoy Colombia to the fullest.
 mainpitch:
-  title: Travel with Certainty
-  description: "Welcome to Enjoy. Safe. Travel. Colombia! Are you asking yourself
-    the following questions: Is it safe in Colombia? Do I need to learn Spanish
-    to travel in Colombia? What months should I make a trip? Am I at risk of
-    getting kidnapped? Through our content and our services, we want to help you
-    answer these questions, and make you feel more comfortable about the
-    Colombian culture and travel within the Colombian borders."
-description: Kaldi is the ultimate spot for coffee lovers who want to learn
-  about their java’s origin and support the farmers that grew it. We take coffee
-  production, roasting and brewing seriously and we’re glad to pass that
-  knowledge to anyone.
+  title: Find out how we are helping travelers prepare for a trip to Colombia.
+  description: Whether you take advantage of one of our in-depth Q&A
+    presentations, learn to speak Colombian Spanish and phrases with us, or want
+    24/7 support while you travel Colombia, you're going to find a new friend
+    and partner in Enjoy Safe Travels Colombia.
+description: We take safety and pleasure seriously, we want you to enjoy
+  Colombia like we know you can!  We want to support you in your learning about
+  this beautiful culture before you get here, expand your level of Spanish so
+  you feel more secure and ready to take on the adventure ahead, and we want to
+  be your friend who can help guide you through all the craziness if you hit any
+  snags along the way!
 intro:
   blurbs:
     - image: /img/coffee.png
