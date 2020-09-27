@@ -5,7 +5,7 @@ image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
 heading: You've never had a friend like us!
 subheading: Learn, Explore, and Prepare to enjoy Colombia to the fullest.
 mainpitch:
-  title: Find out how we are helping travelers prepare for a trip to Colombia.
+  title: Find out how we help travelers prepare for a trip to Colombia.
   description: Whether you take advantage of one of our in-depth Q&A
     presentations, learn to speak Colombian Spanish and phrases with us, or want
     24/7 support while you travel Colombia, you're going to find a new friend
@@ -25,12 +25,13 @@ intro:
         Colombia? Planning to move? Or Simply want to find out more about this
         vibrant country? Let us teach you all there is to know so you can enjoy
         a trip to Colombia safely.
-    - image: /img/coffee-gear.png
+    - image: /img/247support.svg
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+        We don't want to plan your trip, but we'd like to support it. Next time
+        you come to Colombia, have some support in case plans don't work out.
+        Need to reschedule a tour? Translate difficult instructions from Spanish
+        into English? Have us point you to the nearest hospital? Book some
+        support hours and we'll help keep you safe!
     - image: /img/tutorials.png
       text: >
         Love a great cup of coffee, but never knew how to make one? Bought a
