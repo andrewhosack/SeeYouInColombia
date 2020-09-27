@@ -40,13 +40,10 @@ intro:
         not have learnt in your high school Spanish class. Schedule some Spanish
         sessions with us so you can stay in the driver's seat next time you're
         in Colombia!
-    - image: /img/meeting-space.png
-      text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+    - image: /img/barranquilla_nightlife.jpg
+      text: Join our members area for weekly content like Spanish videos, weekly
+        newsletters about current events in Colombia, travel advisories, access
+        to our Facebook Group where you'll meet like minded travelers, and more!
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
