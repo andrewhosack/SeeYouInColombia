@@ -32,13 +32,14 @@ intro:
         Need to reschedule a tour? Translate difficult instructions from Spanish
         into English? Have us point you to the nearest hospital? Book some
         support hours and we'll help keep you safe!
-    - image: /img/tutorials.png
+    - image: /img/pexels-pixabay-301920.jpg
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
+        Hablas Espanol? We find it incredibly important to have a complete, even
+        if beginner, understanding of the Spanish language. On top of that,
+        Colombian Spanish in particular is full of words and surprises you may
+        not have learnt in your high school Spanish class. Schedule some Spanish
+        sessions with us so you can stay in the driver's seat next time you're
+        in Colombia!
     - image: /img/meeting-space.png
       text: >
         We believe that good coffee has the power to bring people together.
