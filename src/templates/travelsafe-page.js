@@ -55,6 +55,7 @@ export const TravelSafePageTemplate = ({
               </h2>
               <p className="is-size-5">{pricing.description}</p>
               <Pricing data={pricing.plans} />
+              <Testimonials testimonials={testimonials} />
               <Features gridItems={intro.blurbs} />
               <div className="columns">
                 <div className="column is-7">
@@ -85,8 +86,7 @@ export const TravelSafePageTemplate = ({
                   </div>
                 </div>
               </div>
-              <Testimonials testimonials={testimonials} />
-              <div
+              {/* <div
                 className="full-width-image-container"
                 style={{
                   backgroundImage: `url(${
@@ -95,7 +95,7 @@ export const TravelSafePageTemplate = ({
                       : fullImage
                   })`,
                 }}
-              />
+              /> */}
             </div>
           </div>
         </div>

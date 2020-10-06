@@ -58,11 +58,13 @@ export const LearnSpanishPageTemplate = ({
               <div
                 className="full-width-image-container"
                 style={{
-                  backgroundImage: `url(${
+                  backgroundImage: 
+                  `url(${
                     fullImage.childImageSharp
                       ? fullImage.childImageSharp.fluid.src
                       : fullImage
                   })`,
+                  backgroundPosition: `center`
                 }}
               />
               <Features gridItems={intro.blurbs} />
