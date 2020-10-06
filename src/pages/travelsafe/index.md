@@ -1,8 +1,8 @@
 ---
 templateKey: 'travelsafe-page'
 path: /travelsafe
-title: Travel Safe with Enjoy Safe Travels Colombia
-image: /img/jumbotron.jpg
+title: Travel Safe
+image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
 heading: Great coffee with a conscience
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
@@ -37,7 +37,7 @@ pricing:
       price: '40'
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
       text: >
         Presentation: Choose the topics you'd like to learn more about: The major
         cities and touristic towns, real safety tips for travel in Colombia,
@@ -45,7 +45,7 @@ intro:
         expect from Colombia, Political/Social/Economic context, Annual events
         held within Colombia, Best times during the year to travel, General cost
         to travel, and much more!
-    - image: /img/coffee-gear.png
+    - image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
       text: >
          Colombia is a country you should visit, point blank. However, anyone who 
          has visited a foreign country (especially Colombia) wishes they would
@@ -53,14 +53,14 @@ intro:
          you avoid the biggest mistakes made by tourists, schedule your presentation 
          and we will help make your trip to Colombia effortless and more important than 
          everything else, SAFE!
-    - image: /img/tutorials.png
+    - image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
       text: >
         We think you're capable of planning your trip to Colombia...but why not
-        have some guidance? Not sure how much to plan in one day? Not sure how
+        have some guidance? Not sure how much to plan for one day? Not sure how
         bad the traffic is in Bogota? You see the reviews online but is this tour
         really worth your time? Want us to call ahead to Hotels or tours for you?
         We want to provide any service for you that helps you plan your trip to Colombia.
-    - image: /img/meeting-space.png
+    - image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
       text: >
         It's common to feel like a fish out of water when you touch down in Colombia.
         With our 24/7 support we want to make you feel more comfortable while you make 
@@ -75,29 +75,29 @@ intro:
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
 main:
-  heading: Great coffee with no compromises
+  heading: Explore the Unknown and Untouched
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+    Colombia is a beautiful, exotic country to explore. We welcome you 
+    to enjoy the same things we've fallen in love with, but we want to help
+    you do it safely. A country like Colombia does not come without it's own risks,
+    so come enjoy the treasures with our guidance.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
   image2:
     alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
+    image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
   image3:
     alt: Coffee beans
-    image: /img/products-grid1.jpg
+    image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
 testimonials:
-  - author: Elisabeth Kaurismäki
+  - author: Margie Jo
     quote: >-
-      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
-  - author: Philipp Trommler
+      With Enjoy Safe Travels Colombia guidance, we were able to plan a trip ourselves to Colombia, but we had insider
+      knowledge helping us make the right decisions.
+  - author: Jim Ross
     quote: >-
-      Kaldi is the place to go if you want the best quality coffee. I love their
-      stance on empowering farmers and transparency.
-full_image: /img/products-full-width.jpg
+      We took advantage of the 24/7 on-call support offered and although we only communicated a couple times about
+      dinner recommendations, it was nice to know I had a friend here in Colombia ready and waiting ot help out if we needed it.
+full_image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
 ---

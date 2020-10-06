@@ -1,8 +1,8 @@
 ---
 templateKey: 'learnspanish-page'
 path: /learnspanish
-title: Learn Spanish with Enjoy Safe Travels Colombia
-image: /img/jumbotron.jpg
+title: Learn Spanish with us
+image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
 heading: Great coffee with a conscience
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
@@ -37,37 +37,18 @@ pricing:
       price: '50'
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
       text: >
-        Presentation: Choose the topics you'd like to learn more about: The major
-        cities and touristic towns, real safety tips for travel in Colombia,
-        General Travel Tips, Lessons about the culture in Colombia, What to
-        expect from Colombia, Political/Social/Economic context, Annual events
-        held within Colombia, Best times during the year to travel, General cost
-        to travel, and much more!
-    - image: /img/coffee-gear.png
+        Whether you enjoy a group setting or a 1 on 1 private lesson, we offer a 
+        wide variety of spanish lessons and content. We already know the colombian slang
+        and local vocabulary, let us help you learn exactly what you'll need. Applications like Duolingo
+        can help with general learning but a more focused Colombian (Latin American) curriculum can help prepare you
+        specifically for a Colombian adventure.
+    - image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
       text: >
-         Colombia is a country you should visit, point blank. However, anyone who 
-         has visited a foreign country (especially Colombia) wishes they would
-         have had someone to tell them all the "do's" and "don't's". Let us help
-         you avoid the biggest mistakes made by tourists, schedule your presentation 
-         and we will help make your trip to Colombia effortless and more important than 
-         everything else, SAFE!
-    - image: /img/tutorials.png
-      text: >
-        We think you're capable of planning your trip to Colombia...but why not
-        have some guidance? Not sure how much to plan in one day? Not sure how
-        bad the traffic is in Bogota? You see the reviews online but is this tour
-        really worth your time? Want us to call ahead to Hotels or tours for you?
-        We want to provide any service for you that helps you plan your trip to Colombia.
-    - image: /img/meeting-space.png
-      text: >
-        It's common to feel like a fish out of water when you touch down in Colombia.
-        With our 24/7 support we want to make you feel more comfortable while you make 
-        your decisions during your trip. Call us if you don't trust a vendor, if you 
-        need help rescheduling a tour or finding a replacement in case of cancelations, 
-        need help with local authorities or finding the nearest hospital, simply call us
-        and we will guide you.
+        Would you prefer to be taught in English, or do you want to be taught in Spanish? We offer both
+        methods of learning depending on your spanish level and what exactly you would like to improve.
+        There are four main components to focus on when you're learning a new language, Reading, Hearing, Writing, and Speaking!  
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
@@ -75,21 +56,21 @@ intro:
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
 main:
-  heading: Great coffee with no compromises
+  heading: Engage and immerse yourself
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+    Travelers are always surprised to find out just how little enligh is spoken in Colombia.
+    You've never felt true hopelessness until you can't even order a hamburger in a burger restaurant 
+    or a cup of coffee in a coffee shop. Immerse yourself in the culture and the local language and you 
+    will find many layers to peel back that you'd never have found otherwise. 
   image1:
     alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
   image2:
     alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
+    image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
   image3:
     alt: Coffee beans
-    image: /img/products-grid1.jpg
+    image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
 testimonials:
   - author: Ben Miller
     quote: >-
@@ -100,5 +81,5 @@ testimonials:
     quote: >-
       I was concerned about my trip to Colombia so I took the 3 course curriculum and although I'm
       not fluent in Spanish, I feel more prepared for my trip.
-full_image: /img/products-full-width.jpg
+full_image: /img/eje_cafetero_valle_de_cocora_2.jpg
 ---

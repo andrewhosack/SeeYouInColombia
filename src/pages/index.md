@@ -25,10 +25,10 @@ intro:
         Colombia? Planning to move? Or Simply want to find out more about this
         vibrant country? Let us teach you all there is to know so you can enjoy
         a trip to Colombia safely.
-    - image: /img/247support.png
+    - image: /img/247support.jpg
       text: >
-        We don't want to plan your trip, but we'd like to support it. Next time
-        you come to Colombia, have some support in case plans don't work out.
+        We'd like to support your next trip, whether that means help planning or support you while you're here.
+        Next time you come to Colombia, have some support in case plans don't work out.
         Need to reschedule a tour? Translate difficult instructions from Spanish
         into English? Have us point you to the nearest hospital? Book some
         support hours and we'll help keep you safe!
