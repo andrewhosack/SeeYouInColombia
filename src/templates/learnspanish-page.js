@@ -64,7 +64,7 @@ export const LearnSpanishPageTemplate = ({
                       ? fullImage.childImageSharp.fluid.src
                       : fullImage
                   })`,
-                  backgroundPosition: `center`
+                  backgroundPosition: `center`,
                 }}
               />
               <Features gridItems={intro.blurbs} />
