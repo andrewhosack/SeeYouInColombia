@@ -20,9 +20,9 @@ export const AboutPageTemplate = ({ title, content, contentComponent, main }) =>
               <PageContent className="content" content={content} />
               <div className="columns">
                 <div className="column is-7">
-                  <h3 className="has-text-weight-semibold is-size-3">
-                    {main.heading}
-                  </h3>
+                <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+                {main.heading}
+              </h2>
                   <p>{main.description}</p>
                 </div>
               </div>
