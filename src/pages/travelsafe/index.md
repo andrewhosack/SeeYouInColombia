@@ -2,7 +2,7 @@
 templateKey: 'travelsafe-page'
 path: /travelsafe
 title: Travel Safe
-image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
+image: /img/san_andres_boats.jpg
 heading: Great coffee with a conscience
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
@@ -83,13 +83,13 @@ main:
     so come enjoy the treasures with our guidance.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
-    image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
+    image: /img/barranquilla_carnaval_1.jpeg
   image2:
     alt: A green cup of a coffee on a wooden table
-    image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
+    image: /img/jardin_road.jpg
   image3:
     alt: Coffee beans
-    image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
+    image: /img/la_guajira_sunset.jpg
 testimonials:
   - author: Margie Jo
     quote: >-

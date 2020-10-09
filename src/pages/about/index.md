@@ -9,28 +9,28 @@ main:
     and has a strong desire to help fellow travelers learn more and travel safely through Colombia.
     Sara is a Colombiana who has a history in International Tourism and professional language teaching.
     Together Andrew and Sara offer a background and ability to help western travelers learn more about Colombia,
-    speak more efficient spanish, and travel this beautiful country safely.
+    speak more efficient spanish, and travel the beautiful country of Colombia safely.
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
+    alt: A picture of Andrew and Sara in Jerico
     image: /img/andrew_sara_jerico.jpg
   image2:
-    alt: A green cup of a coffee on a wooden table
+    alt: A picture of Andrew and Sara on horses
     image: /img/andrew_sara_horses.jpg
   image3:
-    alt: Coffee beans
+    alt: A picture of Andrew and Sara at a finca
     image: /img/andrew_sara_finca.jpg
 ---
 ### Honesty
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+We're never going to just tell you what you want to hear. We want to be truthful and make sure you know what you're getting into before making a trip to Colombia. You never have to be concerned that we would value making profit over keeping it real with you.
 
 ### Trustworthiness
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+When you come to Colombia, we want you to have a friend. We want you to see us as the guardian angel, and we won't take that lightly.
 
 ### Accountability
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+Whether you've scheduled a presentation session with us, travel consulting, 24/7 travel support, or spanish lessons, you will know we are 100% accountable, proffesional, and present. You won't have to wait on us for results, helping you is our main priority, we owe it to you.
 
 ### Customer Care
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+We understand just how important our services are to you and we want to handle that responsibility with care. We want your vacation to go off without a hitch and we want to guide you through the process from the time you plan to the time you get home and our commitment to you is to do this with care.
 
 ### Collaborative
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+Although we know Colombia, you know you! We want to hear from you and get your opinion whether we are planning spanish lessons or helping you plan your next trip. We want all of our products and services to meet the individual needs of our individual clients.
