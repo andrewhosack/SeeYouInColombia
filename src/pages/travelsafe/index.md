@@ -18,42 +18,48 @@ pricing:
       items:
         - 100% customizable presentation
         - Hear it from Experts
-        - Familiarize yourself before take-off
-      plan: Customized Presentation
+        - Familiarize yourself before arriving
+      plan: Presentation
       price: '30'
+      buttonLink: /travelsafe/#customizedPresentation
     - description: 'Great for the traveler who wants some help planning or executing their trip!'
       items:
         - Let's plan your trip together!
         - Avoid winging it
-        - Travel Safely
+        - Travel Safely with Professional Opinions
       plan: Travel Consulting
-      price: '50'
+      price: '50 (hr)'
+      buttonLink: /travelsafe/#travelConsulting
     - description: Want some extra protection during your trip to Colombia, let us help you!
       items:
         - Itenerary changes? Call us.
         - Language barrier or translation?
         - Local Guidance
       plan: 24/7 Travel Support
-      price: '40'
+      price: '40 (hr)'
+      buttonLink: /travelsafe/#247Support
 intro:
   blurbs:
     - image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
+      title: Customized Presentation
+      sectionID: customizedPresentation
+      pricing: $30 for an hour long session including the topics you choose, this includes a Q&A at the end.
       text: >
         Presentation: Choose the topics you'd like to learn more about: The major
         cities and touristic towns, real safety tips for travel in Colombia,
         General Travel Tips, Lessons about the culture in Colombia, What to
         expect from Colombia, Political/Social/Economic context, Annual events
         held within Colombia, Best times during the year to travel, General cost
-        to travel, and much more!
+        to travel, and much more! Colombia is a country you should visit, point blank. However, anyone who 
+        has visited a foreign country (especially Colombia) wishes they would
+        have had someone to tell them all the "do's" and "don't's". Let us help
+        you avoid the biggest mistakes made by tourists, schedule your presentation 
+        and we will help make your trip to Colombia effortless and more important than 
+        everything else, SAFE!
     - image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
-      text: >
-         Colombia is a country you should visit, point blank. However, anyone who 
-         has visited a foreign country (especially Colombia) wishes they would
-         have had someone to tell them all the "do's" and "don't's". Let us help
-         you avoid the biggest mistakes made by tourists, schedule your presentation 
-         and we will help make your trip to Colombia effortless and more important than 
-         everything else, SAFE!
-    - image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
+      title: Travel Consulting
+      sectionID: travelConsulting
+      pricing: $50 per hour. Promotions available if multiple hours are purchased.
       text: >
         We think you're capable of planning your trip to Colombia...but why not
         have some guidance? Not sure how much to plan for one day? Not sure how
@@ -61,6 +67,9 @@ intro:
         really worth your time? Want us to call ahead to Hotels or tours for you?
         We want to provide any service for you that helps you plan your trip to Colombia.
     - image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
+      title: 24/7 Travel Support
+      sectionID: 247Support
+      pricing: $40 per hour. Promotions available if multiple hours are purchased.
       text: >
         It's common to feel like a fish out of water when you touch down in Colombia.
         With our 24/7 support we want to make you feel more comfortable while you make 
@@ -77,7 +86,7 @@ intro:
 main:
   heading: Explore the Unknown and Untouched
   description: >
-    Colombia is a beautiful, exotic country to explore. We welcome you 
+    Colombia is a beautiful, exotic country worth exploring. We welcome you 
     to enjoy the same things we've fallen in love with, but we want to help
     you do it safely. A country like Colombia does not come without it's own risks,
     so come enjoy the treasures with our guidance.

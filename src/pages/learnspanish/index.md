@@ -21,6 +21,7 @@ pricing:
         - Benefit from a group setting
       plan: Group Lessons
       price: '12 (hr)'
+      buttonLink: /learnspanish/#customizedSpanishLessons
     - description: 'A more focused and customized option, all about you and your needs.'
       items:
         - 100% customizable to your level and needs
@@ -28,6 +29,7 @@ pricing:
         - We'll learn based on your schedule
       plan: Private 1 on 1 sessions
       price: '20 (hr)'
+      buttonLink: /learnspanish/#customizedSpanishLessons
     - description: A three class curriculum that will have you ready for a trip to Colombia!
       items:
         - Most important topics for a traveler
@@ -35,9 +37,13 @@ pricing:
         - A curriculum that has helped many previous travelers
       plan: 3 classes Full Curriculum
       price: '50'
+      buttonLink: /learnspanish/#FullCurriculum
 intro:
   blurbs:
-    - image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
+    - image: /img/learn_spanish.jpg
+      title: Customized Spanish Lessons
+      sectionID: customizedSpanishLessons
+      pricing: 1 hour Group Lesson ($12). 1 hour Private Lesson ($20). Promotions available if multiple hours are puchased.
       text: >
         Whether you enjoy a group setting or a 1 on 1 private lesson, we offer a 
         wide variety of spanish lessons and content. We already know the colombian slang
@@ -45,6 +51,9 @@ intro:
         can help with general learning but a more focused Colombian (Latin American) curriculum can help prepare you
         specifically for a Colombian adventure.
     - image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
+      title: Full Colombian Spanish Curriculum
+      sectionID: FullCurriculum
+      pricing: 3 class Full Curriculum ($50). 5 class Full Curriculum ($80)
       text: >
         Would you prefer to be taught in English, or do you want to be taught in Spanish? We offer both
         methods of learning depending on your spanish level and what exactly you would like to improve.
