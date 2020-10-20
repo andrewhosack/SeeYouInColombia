@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { Link } from 'gatsby'
 
 const Pricing = ({ data }) => (
   <div className="columns">
@@ -20,6 +21,11 @@ const Pricing = ({ data }) => (
               </li>
             ))}
           </ul>
+          <div className="column is-12 has-text-centered">
+                    <Link className="btn" to={price.buttonLink}>
+                      Find Out More
+                    </Link>
+          </div>
         </section>
       </div>
     ))}
@@ -32,6 +38,7 @@ Pricing.propTypes = {
       plan: PropTypes.string,
       price: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
       description: PropTypes.string,
+      buttonLink: PropTypes.string,
       items: PropTypes.array,
     })
   ),
