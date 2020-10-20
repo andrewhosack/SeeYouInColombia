@@ -7,6 +7,8 @@ import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
+import ContactForm from '../components/ContactForm'
+
 export const TravelSafePageTemplate = ({
   image,
   title,
@@ -31,10 +33,13 @@ export const TravelSafePageTemplate = ({
       <h2
         className="has-text-weight-bold is-size-1"
         style={{
-          boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
-          backgroundColor: '#f40',
-          color: 'white',
+          //boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
+          //backgroundColor: '#f40',
+          backgroundColor: 'white',
+          //color: 'white',
+          color: '#f40',
           padding: '1rem',
+          opacity: '.9',
         }}
       >
         {title}
@@ -97,11 +102,15 @@ export const TravelSafePageTemplate = ({
                   })`,
                 }}
               /> */}
+              <ContactForm formName="contactFormTravelSafe"></ContactForm>
             </div>
           </div>
         </div>
+        
       </div>
+      
     </section>
+    
   </div>
 )
 
@@ -182,6 +191,9 @@ export const TravelSafePageQuery = graphql`
                 }
               }
             }
+            title
+            sectionID
+            pricing
             text
           }
           heading
@@ -240,6 +252,7 @@ export const TravelSafePageQuery = graphql`
             items
             plan
             price
+            buttonLink
           }
         }
       }
