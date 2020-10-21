@@ -32,7 +32,7 @@ const FeatureGrid = ({ gridItems }) => (
         </section>
           <section className="section" style={{display:`flex`, width:`100%`, flexWrap:`wrap`, justifyContent:`space-evenly`}}>
         
-                    <Link className="btn" to="/travelsafe/#contactForm" style={{minWidth:`230px`, margin:`5px`}}>
+                    <Link className="btn" to="../#contactForm" style={{minWidth:`230px`, margin:`5px`}}>
                       Contact us with questions
                     </Link>
 
