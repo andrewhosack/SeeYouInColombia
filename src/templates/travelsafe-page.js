@@ -195,6 +195,8 @@ export const TravelSafePageQuery = graphql`
             sectionID
             pricing
             text
+            button2Text
+            button2Link
           }
           heading
           description

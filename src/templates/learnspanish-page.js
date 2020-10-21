@@ -74,17 +74,17 @@ export const LearnSpanishPageTemplate = ({
               />
               <Features gridItems={intro.blurbs} />
               <Testimonials testimonials={testimonials} />
-              <div className="columns">
+              {/* <div className="columns">
                 <div className="column is-7">
                   <h3 className="has-text-weight-semibold is-size-3">
                     {main.heading}
                   </h3>
                   <p>{main.description}</p>
                 </div>
-              </div>
+              </div> */}
               <div className="tile is-ancestor">
                 <div className="tile is-vertical">
-                  <div className="tile">
+                  {/* <div className="tile">
                     <div className="tile is-parent is-vertical">
                       <article className="tile is-child">
                         <PreviewCompatibleImage imageInfo={main.image1} />
@@ -100,7 +100,7 @@ export const LearnSpanishPageTemplate = ({
                     <article className="tile is-child">
                       <PreviewCompatibleImage imageInfo={main.image3} />
                     </article>
-                  </div>
+                  </div> */}
                   <ContactForm formName="contactFormTravelSafe"></ContactForm>
                 </div>
               </div>
@@ -193,6 +193,8 @@ export const LearnSpanishPageQuery = graphql`
             sectionID
             pricing
             text
+            button2Text
+            button2Link
           }
           heading
           description

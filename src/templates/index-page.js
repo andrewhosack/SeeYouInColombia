@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import Features from '../components/Features'
+import FeaturesIndex from '../components/FeaturesIndex'
 import BlogRoll from '../components/BlogRoll'
 
 import ContactForm from '../components/ContactForm'
@@ -90,14 +90,14 @@ export const IndexPageTemplate = ({
                     <p>{description}</p>
                   </div>
                 </div>
-                <Features gridItems={intro.blurbs} />
-                <div className="columns">
+                <FeaturesIndex gridItems={intro.blurbs} />
+                {/* <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/products">
                       See all products
                     </Link>
                   </div>
-                </div>
+                </div> */}
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
                     Latest stories
@@ -187,7 +187,10 @@ export const pageQuery = graphql`
                 }
               }
             }
+            sectionID
+            title
             text
+            findOutMoreLink
           }
           heading
           description
