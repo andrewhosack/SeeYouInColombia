@@ -43,7 +43,7 @@ intro:
     - image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
       title: Customized Presentation
       sectionID: customizedPresentation
-      pricing: $30 for an hour long session including the topics you choose, this includes a Q&A at the end.
+      pricing: $30 for a 1 hour presentation. $45 for a 1.5 hour presentation. You choose the topics. Interactive and Q&A.
       text: >
         Presentation: Choose the topics you'd like to learn more about: The major
         cities and touristic towns, real safety tips for travel in Colombia,
@@ -56,6 +56,8 @@ intro:
         you avoid the biggest mistakes made by tourists, schedule your presentation 
         and we will help make your trip to Colombia effortless and more important than 
         everything else, SAFE!
+      button2Text: Purchase Options
+      button2Link: /travelsafe/purchase
     - image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
       title: Travel Consulting
       sectionID: travelConsulting
@@ -66,6 +68,8 @@ intro:
         bad the traffic is in Bogota? You see the reviews online but is this tour
         really worth your time? Want us to call ahead to Hotels or tours for you?
         We want to provide any service for you that helps you plan your trip to Colombia.
+      button2Text: Full Details
+      button2Link: /travelsafe/#contactForm
     - image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
       title: 24/7 Travel Support
       sectionID: 247Support
@@ -77,6 +81,8 @@ intro:
         need help rescheduling a tour or finding a replacement in case of cancelations, 
         need help with local authorities or finding the nearest hospital, simply call us
         and we will guide you.
+      button2Text: Full Details
+      button2Link: /travelsafe/#contactForm
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their

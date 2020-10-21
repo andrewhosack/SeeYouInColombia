@@ -50,6 +50,8 @@ intro:
         and local vocabulary, let us help you learn exactly what you'll need. Applications like Duolingo
         can help with general learning but a more focused Colombian (Latin American) curriculum can help prepare you
         specifically for a Colombian adventure.
+      button2Text: Purchase Options
+      button2Link: /learnspanish/purchase
     - image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
       title: Full Colombian Spanish Curriculum
       sectionID: FullCurriculum
@@ -57,7 +59,9 @@ intro:
       text: >
         Would you prefer to be taught in English, or do you want to be taught in Spanish? We offer both
         methods of learning depending on your spanish level and what exactly you would like to improve.
-        There are four main components to focus on when you're learning a new language, Reading, Hearing, Writing, and Speaking!  
+        There are four main components to focus on when you're learning a new language, Reading, Hearing, Writing, and Speaking!
+      button2Text: Purchase Options
+      button2Link: /learnspanish/purchase
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their

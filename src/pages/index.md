@@ -19,17 +19,19 @@ description: We take safety and pleasure seriously, we want you to enjoy
 intro:
   blurbs:
     - image: /img/img_20181205_165429568_hdr.jpg
-      sectionID: 247Support
-      pricing: You won't believe it!
+      sectionID: presentation
+      title: Fully Customizable Presentation about Colombia
+      findOutMoreLink: /travelsafe/#customizedPresentation
       text: >
         Schedule a call with us and we'll give you an in-depth look, fully
         customized presentation of Colombia. Are you planning a trip to
         Colombia? Planning to move? Or Simply want to find out more about this
         vibrant country? Let us teach you all there is to know so you can enjoy
         a trip to Colombia safely.
-    - image: /img/247support.jpg
+    - image: /img/247Support.jpg
       sectionID: 247Support
-      pricing: You won't believe it!
+      title: 24/7 Travel Support and Travel Consulting
+      findOutMoreLink: /travelsafe
       text: >
         We'd like to support your next trip, whether that means help planning or support you while you're here.
         Next time you come to Colombia, have some support in case plans don't work out.
@@ -37,8 +39,9 @@ intro:
         into English? Have us point you to the nearest hospital? Book some
         support hours and we'll help keep you safe!
     - image: /img/pexels-pixabay-301920.jpg
-      sectionID: 247Support
-      pricing: You won't believe it!
+      sectionID: learnSpanish
+      title: Learn Colombian Spanish with Us
+      findOutMoreLink: /learnSpanish
       text: >
         Hablas Espanol? We find it incredibly important to have a complete, even
         if beginner, understanding of the Spanish language. On top of that,
@@ -47,8 +50,9 @@ intro:
         sessions with us so you can stay in the driver's seat next time you're
         in Colombia!
     - image: /img/barranquilla_nightlife.jpg
-      sectionID: 247Support
-      pricing: You won't believe it!
+      sectionID: memberArea
+      title: Join our Members Area
+      findOutMoreLink: /about
       text: Join our members area for weekly content like Spanish videos, weekly
         newsletters about current events in Colombia, travel advisories, access
         to our Facebook Group where you'll meet like minded travelers, and more!

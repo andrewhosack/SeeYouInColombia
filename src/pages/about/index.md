@@ -8,8 +8,9 @@ main:
     Andrew is from the United States and has lived and breathed Colombia since 2015 
     and has a strong desire to help fellow travelers learn more and travel safely through Colombia.
     Sara is a Colombiana who has a history in International Tourism and professional language teaching.
-    Together Andrew and Sara offer a background and ability to help western travelers learn more about Colombia,
-    speak more efficient spanish, and travel the beautiful country of Colombia safely.
+    Andrew and Sara have been enjoying travel within Colombia together since 2017 and offer a background 
+    and ability to help mostly United States based travelers learn more about Colombia, speak more efficient spanish, 
+    and travel the beautiful country of Colombia safely.
   image1:
     alt: A picture of Andrew and Sara in Jerico
     image: /img/andrew_sara_jerico.jpg
