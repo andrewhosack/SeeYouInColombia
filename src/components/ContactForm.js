@@ -53,7 +53,7 @@ export default function ContactForm(props) {
 
     <p style={{color:`black`}}><h4>Call us and leave us a message: <a href="tel:888-888-8888">888-888-8888</a></h4></p> 
     <p style={{color:`black`}}><h4>Reach us through Email: <a href="mailto:enjoysafetravelscolombia@google.com">Send an Email</a></h4></p> 
-    <p style={{color:`black`}}><h4>Schedule a call via Calendly: <a href="https://calendly.com/enjoysafetravelscolombia/30-minute-colombia-consultation">Schedule a Meeting</a></h4></p>
+    <p style={{color:`black`}}><h4>Schedule a consultation call via Calendly: <a href="https://calendly.com/enjoysafetravelscolombia/30-minute-colombia-consultation">Schedule a Meeting</a></h4></p>
     {/* <TextField id="name" name="name" label="Nombre" variant="outlined" type="email" fullWidth className="contactFormTextField"/>
     
     <Button className="contactFormSubmit" type="submit" variant="contained" fullWidth >Contáctanos</Button> */}
@@ -86,8 +86,8 @@ export default function ContactForm(props) {
     <textarea style={contactFormTextField} name="message" id="message" rows="5" />
   </label>
   </p>
-  <button type="submit">Send</button>
-  <input type="reset" value="Clear" />
+  <button className="button is-link" type="submit" style={{margin:`5px`, minWidth:`70px`}}>Send</button>
+  <input className="button is-link" type="reset" value="Clear" style={{margin:`5px`, minWidth:`70px`}}/>
 
 
         </form>

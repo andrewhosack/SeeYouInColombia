@@ -1,17 +1,17 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import PreviewCompatibleImage from './PreviewCompatibleImage'
 import { Link } from 'gatsby'
 
 const FeatureGrid = ({ gridItems }) => (
-  <div className="columns is-multiline" style={{flexDirection:`column`}}>
+  <div className="columns is-multiline">
     {gridItems.map((item) => (
       <div key={item.text} className="column is-6" id={item.sectionID}  style={{width:`100%`}}>
-        <section  className="section" style={{display:`flex`, width:`100%`, justifyContent:`center`}}>
+        <section  className="section">
 
-        <h2 className="has-text-weight-semibold is-size-2" style={{textAlign:`center`}}>
+        <h3 className="has-text-weight-semibold is-size-2" style={{textAlign:`center`}}>
                 {item.title}
-              </h2>
+              </h3>
         
         {/* <span style={{fontWeight:`bold`, fontSize:`3em`}}>{item.title}</span> */}
        
@@ -28,19 +28,20 @@ const FeatureGrid = ({ gridItems }) => (
             </div>
           </div>
           <p><span style={{fontWeight:`bold`}}>Description: </span>{item.text}</p>
-          <p><span style={{fontWeight:`bold`}}>Pricing: </span>{item.pricing}</p>
         </section>
           <section className="section" style={{display:`flex`, width:`100%`, flexWrap:`wrap`, justifyContent:`space-evenly`}}>
         
-                    <Link className="btn" to="/travelsafe/#contactForm" style={{minWidth:`230px`, margin:`5px`}}>
-                      Contact us with questions
-                    </Link>
+            <Link className="btn" to={item.findOutMoreLink} style={{minWidth:`230px`, margin:`5px`}}>
+              Find out more
+            </Link>
 
-                    <Link className="btn" to={item.button2Link} style={{minWidth:`230px`, margin:`5px`}}>
-                      {item.button2Text}
-                    </Link>
+            <Link className="btn" to="/#contactForm" style={{minWidth:`230px`, margin:`5px`}}>
+              Contact Us For Full Details
+            </Link>
+         
                     
                     {/* <a className="btn"  style={{minWidth:`230px`, margin:`5px`}} href="https://calendly.com/enjoysafetravelscolombia/30-minute-colombia-consultation" target="_blank">Schedule a call with us</a> */}
+          
           </section>
       </div>
     ))}
@@ -53,10 +54,8 @@ FeatureGrid.propTypes = {
       image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
       title: PropTypes.string,
       text: PropTypes.string,
-      pricing: PropTypes.string,
+      findOutMoreLink: PropTypes.string,
       sectionID: PropTypes.string,
-      button2Text: PropTypes.string,
-      button2Link: PropTypes.string,
     })
   ),
 }
