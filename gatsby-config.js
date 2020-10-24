@@ -83,7 +83,7 @@ module.exports = {
         secretKey: process.env.GATSBY_STRIPE_SECRET_KEY,
         downloadFiles: true,
       },
-      'gatsby-plugin-netlify', // make sure to keep it last in the array
     },
+    'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 }
