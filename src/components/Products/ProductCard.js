@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import getStripe from "../../utils/stripejs"
+
 const cardStyles = {
   display: "flex",
   flexDirection: "column",
@@ -36,6 +37,7 @@ const formatPrice = (amount, currency) => {
   })
   return numberFormat.format(price)
 }
+
 const ProductCard = ({ product }) => {
   const [loading, setLoading] = useState(false)
   const handleSubmit = async event => {
@@ -61,15 +63,18 @@ const ProductCard = ({ product }) => {
           <legend>
             <h4>{product.name}</h4>
           </legend>
+          <img src={product.images} />
           <label>
             Price{" "}
-            <select name="priceSelect">
+            {/* <select name="priceSelect">
               {product.prices.map(price => (
                 <option key={price.id} value={price.id}>
                   {formatPrice(price.unit_amount, price.currency)}
                 </option>
               ))}
-            </select>
+            </select> */}
+            {formatPrice(product.prices[0].unit_amount, product.prices[0].currency)}
+
           </label>
         </fieldset>
         <button

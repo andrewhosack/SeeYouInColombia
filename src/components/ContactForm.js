@@ -53,14 +53,14 @@ export default function ContactForm(props) {
 
     <h4 style={{color:`black`}}>Call us and leave us a message: <a href="tel:888-888-8888">888-888-8888</a></h4>
     <h4 style={{color:`black`}}>Reach us through Email: <a href="mailto:enjoysafetravelscolombia@google.com">Send an Email</a></h4>
-    <h4 style={{color:`black`}}>Schedule a consultation call via Calendly: <a href="https://calendly.com/enjoysafetravelscolombia/30-minute-colombia-consultation">Schedule a Meeting</a></h4>
+    <h4 style={{color:`black`}}>Schedule a consultation call via Calendly: <a href="https://calendly.com/enjoysafetravelscolombia/30-minute-colombia-consultation" target="_blank">Schedule a Meeting</a></h4>
     {/* <TextField id="name" name="name" label="Nombre" variant="outlined" type="email" fullWidth className="contactFormTextField"/>
     
     <Button className="contactFormSubmit" type="submit" variant="contained" fullWidth >Contáctanos</Button> */}
 <h3> If you prefer, you can send us a message here on the following form:</h3>
 </div>
 <div>
-<form method="post" action='#' style={{margin: '5%'}} noValidate autoComplete="off" name={props.formName} netlify-honeypot="bot-field" data-netlify="true">
+<form method="post" action="/contact/thanks/" style={{margin: '5%'}} noValidate autoComplete="off" name={props.formName} netlify-honeypot="bot-field" data-netlify="true">
     <input type="hidden" name="bot-field" /> <input type="hidden" name="form-name" value={props.formName} />
 <p>
   <label style={{color:`black`, display:`flex`, flexDirection:`column`}}>

@@ -1,14 +1,15 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
 import ProductCard from "./ProductCard"
+
 const containerStyles = {
   display: "flex",
   flexDirection: "row",
   flexWrap: "wrap",
-  justifyContent: "space-between",
+  justifyContent: "space-evenly",
   padding: "1rem 0 1rem 0",
 }
-const Products = () => {
+const Products = (props) => {
   return (
     <StaticQuery
       query={graphql`
@@ -26,6 +27,7 @@ const Products = () => {
                 product {
                   id
                   name
+                  images
                 }
               }
             }
@@ -43,10 +45,24 @@ const Products = () => {
           }
           products[product.id].prices.push(price)
         }
+        
+        let productsToDisplay = Object.values(products).filter(product => {
+          if(product.name.indexOf(props.productsToDisplay) >= 0) {
+            return product.name
+          }
+          
+          //return product.name === props.productsToDisplay;     
+          //console.log(products)                                       
+        })
+
+        if(props.productsToDisplay === "All") {
+          productsToDisplay = products;
+        }
+
         return (
           <div style={containerStyles}>
-            {Object.keys(products).map(key => (
-              <ProductCard key={products[key].id} product={products[key]} />
+            {Object.keys(productsToDisplay).map(key => (
+                <ProductCard key={productsToDisplay[key].id} product={productsToDisplay[key]} />
             ))}
           </div>
         )
