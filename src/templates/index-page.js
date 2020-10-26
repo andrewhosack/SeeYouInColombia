@@ -8,8 +8,6 @@ import BlogRoll from '../components/BlogRoll'
 
 import ContactForm from '../components/ContactForm'
 
-import Products from "../components/Products/Products"
-
 export const IndexPageTemplate = ({
   image,
   title,
@@ -84,7 +82,6 @@ export const IndexPageTemplate = ({
                     <h3 className="subtitle">{mainpitch.description}</h3>
                   </div>
                 </div>
-                <Products />
                 <div className="columns">
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
