@@ -57,7 +57,7 @@ intro:
         and we will help make your trip to Colombia effortless and more important than 
         everything else, SAFE!
       button2Text: Purchase Options
-      button2Link: /travelsafe/purchase
+      button2Link: ../purchase/purchase/#presentations
     - image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
       title: Travel Consulting
       sectionID: travelConsulting

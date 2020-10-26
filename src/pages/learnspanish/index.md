@@ -51,7 +51,7 @@ intro:
         can help with general learning but a more focused Colombian (Latin American) curriculum can help prepare you
         specifically for a Colombian adventure.
       button2Text: Purchase Options
-      button2Link: /learnspanish/purchase
+      button2Link: /purchase/purchase/#spanishLessons
     - image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
       title: Full Colombian Spanish Curriculum
       sectionID: FullCurriculum
@@ -61,7 +61,7 @@ intro:
         methods of learning depending on your spanish level and what exactly you would like to improve.
         There are four main components to focus on when you're learning a new language, Reading, Hearing, Writing, and Speaking!
       button2Text: Purchase Options
-      button2Link: /learnspanish/purchase
+      button2Link: /purchase/purchase/#spanishCurriculum
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
