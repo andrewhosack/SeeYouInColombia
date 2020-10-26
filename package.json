@@ -7,6 +7,7 @@
     "@babel/runtime": "^7.12.1",
     "@stripe/stripe-js": "^1.10.0",
     "bulma": "^0.9.0",
+    "eslint-loader": "^2.1.2",
     "gatsby": "^2.24.83",
     "gatsby-image": "^2.3.5",
     "gatsby-plugin-netlify": "^2.2.4",
