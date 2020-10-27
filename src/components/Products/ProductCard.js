@@ -23,6 +23,7 @@ const buttonStyles = {
   backgroundColor: "rgb(255, 178, 56)",
   borderRadius: "6px",
   letterSpacing: "1.5px",
+  marginTop: "5px",
 }
 const buttonDisabledStyles = {
   opacity: "0.5",
@@ -38,24 +39,58 @@ const formatPrice = (amount, currency) => {
   return numberFormat.format(price)
 }
 
+
+const handleQuantitySelect = (event, product) => {
+  
+  //Setting the price on the product card depending on the quantity
+  document.getElementById(product.name).querySelector("#priceSpan").innerHTML = formatPrice((product.prices[0].unit_amount * event), product.prices[0].currency)
+ 
+  //Setting the quantity on the product card after quantity has been selected
+  if( event < 3) {
+    document.getElementById(product.name).querySelector("#quantitySpan").innerHTML = `${event} sessions`
+  }
+  else if(event >=3 && event <= 5) {
+    //event++;
+    document.getElementById(product.name).querySelector("#quantitySpan").innerHTML = `${event} sessions (+1 bonus)`
+  }
+  else if(event >=6 && event <= 8) {
+    //event = Number(event) + 2;
+    document.getElementById(product.name).querySelector("#quantitySpan").innerHTML = `${event} sessions (+2 bonus)`
+  }
+  else if(event >=9) {
+    //event = Number(event) + 3;
+    document.getElementById(product.name).querySelector("#quantitySpan").innerHTML = `${event} sessions (+3 bonus)`
+  }
+  
+
+}
+
 const ProductCard = ({ product }) => {
   const [loading, setLoading] = useState(false)
   const handleSubmit = async event => {
     event.preventDefault()
     setLoading(true)
     const price = new FormData(event.target).get("priceSelect")
+
+    let quantitySelected = new FormData(event.target).get("quantitySelect")
+
+    if (!quantitySelected) {
+      quantitySelected = 1
+    }
+
     const stripe = await getStripe()
     const { error } = await stripe.redirectToCheckout({
       mode: "payment",
-      lineItems: [{ price, quantity: 1 }],
-      successUrl: `${window.location.origin}/page-2/`,
-      cancelUrl: `${window.location.origin}/advanced`,
+      lineItems: [{ price, quantity: Number(quantitySelected) }],
+      successUrl: `${window.location.origin}/purchase/completepurchase`,
+      cancelUrl: `${window.location.origin}/purchase/purchase`,
     })
     if (error) {
       console.warn("Error:", error)
       setLoading(false)
     }
   }
+
   return (
     <div style={cardStyles}>
       <form onSubmit={handleSubmit}>
@@ -63,30 +98,105 @@ const ProductCard = ({ product }) => {
           <legend>
             <h4>{product.name}</h4>
           </legend>
-          <img src={product.images} />
-          <label>
-            Price{" "}
-            {/* <select name="priceSelect">
+          <img src={product.images} alt="product description"/>
+
+          {product.name.indexOf("1 hour - Colombia Presentation") >= 0  &&
+          <div>
+            You will choose up to 3 of the topics to focus on during your presentation.
+          </div>
+          }
+          {product.name.indexOf("Full Colombia Presentation") >= 0  &&
+          <div>
+            All encompassing presentation and discussion about Colombia!
+          </div>
+          }
+          {product.name.indexOf("Group Spanish Lessons") >= 0  &&
+          <div>
+            Join together with family or friends to learn Spanish as a Group!
+          </div>
+          }
+          {product.name.indexOf("Private Spanish Lessons") >= 0  &&
+          <div>
+            If you prefer one on one learning, this is a great option.
+          </div>
+          }
+          {product.name.indexOf("3 Class Full Curriculum") >= 0  &&
+          <div>
+            A 3 class Spanish package to prepare you for a trip to Colombia.
+          </div>
+          }
+          {product.name.indexOf("5 Class Full Curriculum") >= 0  &&
+          <div>
+            A 5 class Spanish package to help you dive a bit deeper into the Spanish language.
+          </div>
+          }
+          {product.name.indexOf("10 Class Full Curriculum") >= 0  &&
+          <div>
+            A 10 class Spanish package for those who want to show off their skills upon arrival to Colombia.
+          </div>
+          }
+
+          <div style={{display:"flex", justifyContent: "space-between", margin:"3px"}}>
+            <label>
+            Price:{" "}
+            <select name="priceSelect">
               {product.prices.map(price => (
                 <option key={price.id} value={price.id}>
                   {formatPrice(price.unit_amount, price.currency)}
                 </option>
               ))}
-            </select> */}
-            {formatPrice(product.prices[0].unit_amount, product.prices[0].currency)}
+            </select>
+            </label>
 
-          </label>
+            {product.name.indexOf("Lessons") >= 0  &&
+            <label>
+            Quantity:{" "}
+            <select name="quantitySelect" id="quantitySelect" onChange={(event) => handleQuantitySelect(event.target.value, product)}>
+              <option key="1" value="1">1 session</option>
+              <option key="2" value="2">2 session</option>
+              <option key="3" value="3">3 session</option>
+              <option key="4" value="4">4 session</option>
+              <option key="5" value="5">5 session</option>
+              <option key="6" value="6">6 session</option>
+              <option key="7" value="7">7 session</option>
+              <option key="8" value="8">8 session</option>
+              <option key="9" value="9">9 session</option>
+              <option key="10" value="10">10 session</option>
+            </select>
+            </label>
+            }
+          </div>
         </fieldset>
-        <button
-          disabled={loading}
-          style={
-            loading
-              ? { ...buttonStyles, ...buttonDisabledStyles }
-              : buttonStyles
+        
+        <div>
+
+        {product.name.indexOf("Lessons") >= 0  &&
+          <div id={product.name}>
+            <div id="totalPriceDiv">
+              {/* Total Price: {formatPrice((product.prices[0].unit_amount * document.getElementById("quantitySelect").value), product.prices[0].currency)} */}
+              Total Price: <span id="priceSpan" style={{fontWeight:`bold`}}>{formatPrice((product.prices[0].unit_amount), product.prices[0].currency)}</span>
+            </div>
+            <div id="totalClassDiv">
+              Total Classes: <span id="quantitySpan" style={{fontWeight:`bold`}}>1</span>
+            </div>
+          </div>
           }
-        >
-          BUY ME
-        </button>
+
+
+          <button
+            disabled={loading}
+            style={
+              loading
+                ? { ...buttonStyles, ...buttonDisabledStyles }
+                : buttonStyles
+            }
+          >
+            BUY ME
+          </button>
+          
+          
+
+        </div>
       </form>
     </div>
   )

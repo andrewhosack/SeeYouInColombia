@@ -9,6 +9,7 @@ const containerStyles = {
   justifyContent: "space-evenly",
   padding: "1rem 0 1rem 0",
 }
+
 const Products = (props) => {
   return (
     <StaticQuery
@@ -44,15 +45,13 @@ const Products = (props) => {
             products[product.id].prices = []
           }
           products[product.id].prices.push(price)
+          //console.log(products[product.id])
         }
         
         let productsToDisplay = Object.values(products).filter(product => {
           if(product.name.indexOf(props.productsToDisplay) >= 0) {
             return product.name
-          }
-          
-          //return product.name === props.productsToDisplay;     
-          //console.log(products)                                       
+          }                                      
         })
 
         if(props.productsToDisplay === "All") {
