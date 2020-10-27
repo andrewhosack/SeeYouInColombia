@@ -1,10 +1,11 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import Layout from '../../components/Layout'
 
 import Products from "../../components/Products/Products"
+import PresentationCard from "../../components/Products/PresentationCards"
 
 export default class Index extends React.Component {
+  
   render() {
     return (
       <Layout>
@@ -17,14 +18,30 @@ export default class Index extends React.Component {
                 offer a one hour presentation where you can choose from various topics to 
                 learn about. We also have a complete presentation with all topics included which lasts
                 about an hour and a half. The presentation will be an open format and we welcome questions
-                throughout the call!
+                throughout the call! <span style={{fontWeight:`bold`}}>If you purchase the 1 hour presentation,
+                you will select the topics you'd like to learn more about after the purchase is completed.</span>
               </p>
+              <p>
+                Topics you'll learn about in the presentation:
+              </p>
+                <div style={{display:'flex', flexWrap:'wrap', borderStyle:'solid'}}>              
+              <PresentationCard topic="The major cities and touristic towns" />
+              <PresentationCard topic="Real safety tips for travel in Colombia" />
+              <PresentationCard topic="General Travel Tips" />
+              <PresentationCard topic="Lessons about the culture in Colombia" />
+              <PresentationCard topic="What to expect from Colombia" />
+              <PresentationCard topic="Political/Social/Economic context" />
+              <PresentationCard topic="Annual events held within Colombia" />
+              <PresentationCard topic="Best times during the year to travel" />
+              <PresentationCard topic="General cost to travel" />
+              </div>
               <Products productsToDisplay="Presentation" />
               <h1 id="spanishLessons">Group or Individualized Spanish Lessons:</h1>
               <p>
                 You can choose how many classes you'd like to purchase. There is a discount on classes the more 
                 classes you purchase at once. With the Group and Individualized classes we will focus on the topics
-                you find important and we'll also offer our suggestions on what you should learn and the process we'll take!
+                you find important and we'll also offer our suggestions on what you should learn and the process we'll take! 
+                <span style={{fontWeight:`bold`}}>  If you are puchasing Group Classes with a friend(s), each student will need to purchase the classes separately.</span>
               </p>
                 <Products productsToDisplay="Lessons" />
               <h1 id="spanishCurriculum">Full Colombian Spanish Curriculum Options:</h1>
@@ -35,33 +52,6 @@ export default class Index extends React.Component {
                 like to take your understanding.
               </p>
                 <Products productsToDisplay="Curriculum" />
-              {/* <ul>
-                <li>
-                  <Link to="/contact">Basic contact form</Link>
-                </li>
-                <li>
-                  <Link to="/contact/file-upload/">Form with file upload</Link>
-                </li>
-              </ul>
-
-              <h2>Troubleshooting</h2>
-              <h3>Forms stop working after upgrading to Gatsby v2</h3>
-              <p>
-                This can be caused by the offline-plugin.{' '}
-                <a href="https://github.com/gatsbyjs/gatsby/issues/7997#issuecomment-419749232">
-                  Workaround
-                </a>{' '}
-                is to use <code>?no-cache=1</code> in the POST url to prevent
-                the service worker from handling form submissions
-              </p>
-              <h3>Adding reCAPTCHA</h3>
-              <p>
-                If you are planning to add reCAPTCHA please go to{' '}
-                <a href="https://github.com/imorente/gatsby-netlify-form-example">
-                  imorente/gatsby-netlify-form-example
-                </a>{' '}
-                for a working example.
-              </p> */}
             </div>
           </div>
         </section>
