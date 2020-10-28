@@ -9,7 +9,7 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 import ContactForm from '../components/ContactForm'
 
-export const TravelSafePageTemplate = ({
+export const TravelSafelyPageTemplate = ({
   image,
   title,
   heading,
@@ -102,7 +102,9 @@ export const TravelSafePageTemplate = ({
                   })`,
                 }}
               /> */}
-              <ContactForm formName="contactFormTravelSafe"></ContactForm>
+              <div style={{marginTop:'50px'}}>
+                <ContactForm formName="contactFormTravelSafely"></ContactForm>
+              </div>
             </div>
           </div>
         </div>
@@ -114,7 +116,7 @@ export const TravelSafePageTemplate = ({
   </div>
 )
 
-TravelSafePageTemplate.propTypes = {
+TravelSafelyPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
@@ -138,12 +140,12 @@ TravelSafePageTemplate.propTypes = {
   }),
 }
 
-const TravelSafePage = ({ data }) => {
+const TravelSafelyPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
   return (
     <Layout>
-      <TravelSafePageTemplate
+      <TravelSafelyPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
@@ -158,7 +160,7 @@ const TravelSafePage = ({ data }) => {
   )
 }
 
-TravelSafePage.propTypes = {
+TravelSafelyPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
@@ -166,10 +168,10 @@ TravelSafePage.propTypes = {
   }),
 }
 
-export default TravelSafePage
+export default TravelSafelyPage
 
-export const TravelSafePageQuery = graphql`
-  query TravelSafePage($id: String!) {
+export const TravelSafelyPageQuery = graphql`
+  query TravelSafelyPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title

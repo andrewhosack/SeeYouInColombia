@@ -5,7 +5,6 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 import ContactForm from '../components/ContactForm'
 
@@ -101,7 +100,9 @@ export const LearnSpanishPageTemplate = ({
                       <PreviewCompatibleImage imageInfo={main.image3} />
                     </article>
                   </div> */}
-                  <ContactForm formName="contactFormTravelSafe"></ContactForm>
+                  <div style={{marginTop:'50px'}}>
+                    <ContactForm formName="contactFormTravelSafe"></ContactForm>
+                  </div>
                 </div>
               </div>
             </div>

@@ -108,7 +108,9 @@ export const IndexPageTemplate = ({
                       Read more
                     </Link>
                   </div>
-                  <ContactForm formName="contactFormTravelSafe"></ContactForm>
+                  <div style={{marginTop:'50px'}}>
+                    <ContactForm formName="contactFormTravelSafe"></ContactForm>
+                  </div>
                 </div>
               </div>
             </div>
