@@ -25,6 +25,7 @@ const buttonStyles = {
   borderRadius: "6px",
   letterSpacing: "1.5px",
   marginTop: "5px",
+  cursor: "pointer",
 }
 const buttonDisabledStyles = {
   opacity: "0.5",
@@ -83,7 +84,7 @@ const ProductCard = ({ product }) => {
     const { error } = await stripe.redirectToCheckout({
       mode: "payment",
       lineItems: [{ price, quantity: Number(quantitySelected) }],
-      successUrl: `${window.location.origin}/purchase/completepurchase`,
+      successUrl: `${window.location.origin}/purchase/completepurchase?session_id={CHECKOUT_SESSION_ID}`,
       cancelUrl: `${window.location.origin}/purchase/purchase`,
     })
     if (error) {
@@ -159,9 +160,9 @@ const ProductCard = ({ product }) => {
           }
 
           <div style={{display:"flex", justifyContent: "space-between", margin:"3px"}}>
-            <label>
-            Price:{" "}
-            <select name="priceSelect">
+            <label className="hidden">
+            Price: {" "}
+            <select name="priceSelect" >
               {product.prices.map(price => (
                 <option key={price.id} value={price.id}>
                   {formatPrice(price.unit_amount, price.currency)}
@@ -170,10 +171,17 @@ const ProductCard = ({ product }) => {
             </select>
             </label>
 
+            <label>
+            Price: {" "}
+            <span>
+              {formatPrice((product.prices[0].unit_amount), product.prices[0].currency)}
+            </span>
+            </label>
+
             {product.name.indexOf("Lessons") >= 0  &&
             <label>
             Quantity:{" "}
-            <select name="quantitySelect" id="quantitySelect" onChange={(event) => handleQuantitySelect(event.target.value, product)}>
+            <select name="quantitySelect" id="quantitySelect" onChange={(event) => handleQuantitySelect(event.target.value, product)} style={{cursor: "pointer"}}>
               <option key="1" value="1">1 session</option>
               <option key="2" value="2">2 sessions</option>
               <option key="3" value="3">3 sessions</option>

@@ -106,7 +106,7 @@ main:
     alt: Coffee beans
     image: /img/la_guajira_sunset.jpg
 testimonials:
-  - author: Margie Jo
+  - author: Mother Theresa
     quote: >-
       With Enjoy Safe Travels Colombia guidance, we were able to plan a trip ourselves to Colombia, but we had insider
       knowledge helping us make the right decisions.

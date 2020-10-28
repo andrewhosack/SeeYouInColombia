@@ -21,10 +21,12 @@ export default class Index extends React.Component {
                 throughout the call! <span style={{fontWeight:`bold`}}>If you purchase the 1 hour presentation,
                 you will select the topics you'd like to learn more about after the purchase is completed.</span>
               </p>
-              <h2>
+              
+                <h2 style={{textAlign:'center'}}>
                 Topics you'll learn about in the presentation:
               </h2>
-                <div style={{display:'flex', flexWrap:'wrap', borderStyle:'solid', maxWidth:'770px'}}>              
+              <div style={{width:'100%', display:'flex', justifyContent:'center', marginBottom: '20px'}}>
+                <div style={{display:'flex', flexWrap:'wrap', borderStyle:'solid', maxWidth:'770px', justifyContent:'center'}}>              
               <PresentationCard topic="The major cities and touristic towns" />
               <PresentationCard topic="Real safety tips for travel in Colombia" />
               <PresentationCard topic="General Travel Tips" />
@@ -34,6 +36,7 @@ export default class Index extends React.Component {
               <PresentationCard topic="Annual events held within Colombia" />
               <PresentationCard topic="Best times during the year to travel" />
               <PresentationCard topic="General cost to travel" />
+              </div>
               </div>
               <Products productsToDisplay="Presentation" />
               <h1 id="spanishLessons">Group or Individualized Spanish Lessons:</h1>

@@ -18,20 +18,20 @@ description: We take safety and pleasure seriously, we want you to enjoy
   snags along the way!
 intro:
   blurbs:
-    - image: /img/img_20181205_165429568_hdr.jpg
+    - image: /img/presentation_1.jpg
       sectionID: presentation
       title: Fully Customizable Presentation about Colombia
-      findOutMoreLink: /travelsafe/#customizedPresentation
+      findOutMoreLink: /travelsafely/#customizedPresentation
       text: >
         Schedule a call with us and we'll give you an in-depth look, fully
         customized presentation of Colombia. Are you planning a trip to
         Colombia? Planning to move? Or Simply want to find out more about this
         vibrant country? Let us teach you all there is to know so you can enjoy
         a trip to Colombia safely.
-    - image: /img/247Support.jpg
+    - image: /img/travel_consulting.jpg
       sectionID: 247Support
       title: 24/7 Travel Support and Travel Consulting
-      findOutMoreLink: /travelsafe
+      findOutMoreLink: /travelsafely
       text: >
         We'd like to support your next trip, whether that means help planning or support you while you're here.
         Next time you come to Colombia, have some support in case plans don't work out.

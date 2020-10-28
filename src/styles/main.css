@@ -1,3 +1,8 @@
-/* .section {
-    background-color:red;
-} */
+  /* mouse over link */
+  .purchasePageLink:hover {
+    cursor: pointer;
+  }
+
+  .hidden {
+      display: None;
+  }

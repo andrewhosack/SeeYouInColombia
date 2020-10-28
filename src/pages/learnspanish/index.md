@@ -85,7 +85,7 @@ main:
     alt: Coffee beans
     image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
 testimonials:
-  - author: Ben Miller
+  - author: Jim Bean
     quote: >-
       I took Spanish in high school so I thought I would "be good" in Colombia. Once getting here
       I realized I was greatly mistaken. The classes I've taken with Enjoy Safe Travels Colombia
