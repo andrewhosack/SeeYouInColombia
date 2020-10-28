@@ -49,13 +49,13 @@ intro:
         not have learnt in your high school Spanish class. Schedule some Spanish
         sessions with us so you can stay in the driver's seat next time you're
         in Colombia!
-    - image: /img/barranquilla_nightlife.jpg
-      sectionID: memberArea
-      title: Join our Members Area
-      findOutMoreLink: /about
-      text: Join our members area for weekly content like Spanish videos, weekly
-        newsletters about current events in Colombia, travel advisories, access
-        to our Facebook Group where you'll meet like minded travelers, and more!
+    # - image: /img/barranquilla_nightlife.jpg
+    #   sectionID: memberArea
+    #   title: Join our Members Area
+    #   findOutMoreLink: /about
+    #   text: Join our members area for weekly content like Spanish videos, weekly
+    #     newsletters about current events in Colombia, travel advisories, access
+    #     to our Facebook Group where you'll meet like minded travelers, and more!
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their

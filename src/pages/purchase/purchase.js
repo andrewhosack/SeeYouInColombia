@@ -24,13 +24,13 @@ export default class Index extends React.Component {
               <h2>
                 Topics you'll learn about in the presentation:
               </h2>
-                <div style={{display:'flex', flexWrap:'wrap', borderStyle:'solid'}}>              
+                <div style={{display:'flex', flexWrap:'wrap', borderStyle:'solid', maxWidth:'770px'}}>              
               <PresentationCard topic="The major cities and touristic towns" />
               <PresentationCard topic="Real safety tips for travel in Colombia" />
               <PresentationCard topic="General Travel Tips" />
               <PresentationCard topic="Lessons about the culture in Colombia" />
               <PresentationCard topic="What to expect from Colombia" />
-              <PresentationCard topic="Political/Social/Economic context" />
+              <PresentationCard topic="Political, Social, Economic context" />
               <PresentationCard topic="Annual events held within Colombia" />
               <PresentationCard topic="Best times during the year to travel" />
               <PresentationCard topic="General cost to travel" />

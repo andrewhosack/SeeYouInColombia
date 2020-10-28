@@ -52,10 +52,10 @@ intro:
         specifically for a Colombian adventure.
       button2Text: Purchase Options
       button2Link: /purchase/purchase/#spanishLessons
-    - image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
+    - image: /img/full_curriculum.jpg
       title: Full Colombian Spanish Curriculum
       sectionID: FullCurriculum
-      pricing: 3 class Full Curriculum ($50). 5 class Full Curriculum ($80)
+      pricing: 3 class Full Curriculum ($50). 5 class Full Curriculum ($80). 10 class Full Curriculum ($140).
       text: >
         Would you prefer to be taught in English, or do you want to be taught in Spanish? We offer both
         methods of learning depending on your spanish level and what exactly you would like to improve.
