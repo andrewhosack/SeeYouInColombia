@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import getStripe from "../../utils/stripejs"
+import { Link } from 'gatsby'
 
 const cardStyles = {
   display: "flex",
@@ -103,36 +104,57 @@ const ProductCard = ({ product }) => {
           {product.name.indexOf("1 hour - Colombia Presentation") >= 0  &&
           <div>
             You will choose up to 3 of the topics to focus on during your presentation.
+            <Link to="../../travelsafely/#customizedPresentation" style={{minWidth:`230px`, margin:`5px`}}>
+              Read More...
+            </Link>
           </div>
           }
           {product.name.indexOf("Full Colombia Presentation") >= 0  &&
           <div>
             All encompassing presentation and discussion about Colombia!
+            <Link to="../../travelsafely/#customizedPresentation" style={{minWidth:`230px`, margin:`5px`}}>
+              Read More...
+            </Link>
           </div>
           }
           {product.name.indexOf("Group Spanish Lessons") >= 0  &&
           <div>
             Join together with family or friends to learn Spanish as a Group!
+            <Link to="../../learnspanish/#customizedSpanishLessons" style={{minWidth:`230px`, margin:`5px`}}>
+              Read More...
+            </Link>
           </div>
           }
           {product.name.indexOf("Private Spanish Lessons") >= 0  &&
           <div>
             If you prefer one on one learning, this is a great option.
+            <Link  to="../../learnspanish/#customizedSpanishLessons" style={{minWidth:`230px`, margin:`5px`}}>
+              Read More...
+            </Link>
           </div>
           }
           {product.name.indexOf("3 Class Full Curriculum") >= 0  &&
           <div>
             A 3 class Spanish package to prepare you for a trip to Colombia.
+            <Link to="../../learnspanish/#FullCurriculum" style={{minWidth:`230px`, margin:`5px`}}>
+              Read More...
+            </Link>
           </div>
           }
           {product.name.indexOf("5 Class Full Curriculum") >= 0  &&
           <div>
             A 5 class Spanish package to help you dive a bit deeper into the Spanish language.
+            <Link to="../../learnspanish/#FullCurriculum" style={{minWidth:`230px`, margin:`5px`}}>
+              Read More...
+            </Link>
           </div>
           }
           {product.name.indexOf("10 Class Full Curriculum") >= 0  &&
           <div>
             A 10 class Spanish package for those who want to show off their skills upon arrival to Colombia.
+            <Link to="../../learnspanish/#FullCurriculum" style={{minWidth:`230px`, margin:`5px`}}>
+              Read More...
+            </Link>
           </div>
           }
 
@@ -153,15 +175,15 @@ const ProductCard = ({ product }) => {
             Quantity:{" "}
             <select name="quantitySelect" id="quantitySelect" onChange={(event) => handleQuantitySelect(event.target.value, product)}>
               <option key="1" value="1">1 session</option>
-              <option key="2" value="2">2 session</option>
-              <option key="3" value="3">3 session</option>
-              <option key="4" value="4">4 session</option>
-              <option key="5" value="5">5 session</option>
-              <option key="6" value="6">6 session</option>
-              <option key="7" value="7">7 session</option>
-              <option key="8" value="8">8 session</option>
-              <option key="9" value="9">9 session</option>
-              <option key="10" value="10">10 session</option>
+              <option key="2" value="2">2 sessions</option>
+              <option key="3" value="3">3 sessions</option>
+              <option key="4" value="4">4 sessions</option>
+              <option key="5" value="5">5 sessions</option>
+              <option key="6" value="6">6 sessions</option>
+              <option key="7" value="7">7 sessions</option>
+              <option key="8" value="8">8 sessions</option>
+              <option key="9" value="9">9 sessions</option>
+              <option key="10" value="10">10 sessions</option>
             </select>
             </label>
             }
