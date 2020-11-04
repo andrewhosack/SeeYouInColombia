@@ -25,16 +25,17 @@ intro:
       text: >
         Schedule a call with us and we'll give you an in-depth look, fully
         customized presentation of Colombia. Are you planning a trip to
-        Colombia? Planning to move? Or Simply want to find out more about this
-        vibrant country? Let us teach you all there is to know so you can enjoy
+        Colombia? Thinking about moving? Or do you simply want to find out more about this
+        vibrant country? Let us teach you all there is to know so you can come and enjoy
         a trip to Colombia safely.
     - image: /img/travel_consulting.jpg
       sectionID: 247Support
       title: 24/7 Travel Support and Travel Consulting
       findOutMoreLink: /travelsafely
       text: >
-        We'd like to support your next trip, whether that means help planning or support you while you're here.
-        Next time you come to Colombia, have some support in case plans don't work out.
+        We'd like to support you on your next trip, whether that means helping you plan your trip
+        or supporting you while you're here in Colombia. Next time you come to Colombia, plan on letting 
+        us help you in case plans aren't working out or if you find yourself in a bind.
         Need to reschedule a tour? Translate difficult instructions from Spanish
         into English? Have us point you to the nearest hospital? Book some
         support hours and we'll help keep you safe!
@@ -58,17 +59,11 @@ intro:
     #     to our Facebook Group where you'll meet like minded travelers, and more!
   heading: What we offer
   description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+    A description can go here
 main:
-  heading: Great coffee with no compromises
+  heading: A heading
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+    A description can go here
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg

@@ -1,5 +1,5 @@
 ---
-templateKey: 'travelsafe-page'
+templateKey: 'travelsafely-page'
 path: /travelsafe
 title: Travel Safe with Enjoy Safe Travels Colombia
 image: /img/jumbotron.jpg

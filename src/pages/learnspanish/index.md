@@ -5,16 +5,13 @@ title: Learn Spanish with us
 image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
 heading: Great coffee with a conscience
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Unused description
 pricing:
-  heading: Sharpen your spanish skills
+  heading: Sharpen your Spanish skills
   description: >-
-    We find it extremely important to learn at least a basic level of spanish before your trip. Taking online classes with Enjoy Safe Travels Colombia will prepare you specifically for situations and dialogue that you'll only find in Colombia. Choose one of the options below depending on the type of class you'd like to take. Contact us about more details and payment info.
+    We find it extremely important to learn at least a basic level of Spanish before your trip. When you take online classes with us, you will be prepared for specific situations and dialogue that you'll only find in Colombia. Choose one of the options below depending on the type of class you'd like to take. Contact us about more details and payment info.
   plans:
-    - description: Learn with your friends, family, or other travelers of ours! We'll match you with travelers of a similar spanish level.
+    - description: Learn with your friends or family! An affordable approach to learning Spanish.
       items:
         - 100% customizable to your level and needs
         - A cheaper option to learn
@@ -22,20 +19,20 @@ pricing:
       plan: Group Lessons
       price: '12 (hr)'
       buttonLink: /learnspanish/#customizedSpanishLessons
-    - description: 'A more focused and customized option, all about you and your needs.'
+    - description: 'A focused and customized option, all about you and your needs.'
       items:
         - 100% customizable to your level and needs
         - You tell us what you want to focus on
         - We'll learn based on your schedule
-      plan: Private 1 on 1 sessions
+      plan: Private 1 on 1 Sessions
       price: '20 (hr)'
       buttonLink: /learnspanish/#customizedSpanishLessons
-    - description: A three class curriculum that will have you ready for a trip to Colombia!
+    - description: A three, five, or ten class curriculum that will have you ready for a trip to Colombia!
       items:
         - Most important topics for a traveler
         - You know exactly what you're getting
         - A curriculum that has helped many previous travelers
-      plan: 3 classes Full Curriculum
+      plan: 3/5/10 Class Curriculum
       price: '50'
       buttonLink: /learnspanish/#FullCurriculum
 intro:
@@ -46,8 +43,8 @@ intro:
       pricing: 1 hour Group Lesson ($12). 1 hour Private Lesson ($20). Promotions available if multiple hours are puchased.
       text: >
         Whether you enjoy a group setting or a 1 on 1 private lesson, we offer a 
-        wide variety of spanish lessons and content. We already know the colombian slang
-        and local vocabulary, let us help you learn exactly what you'll need. Applications like Duolingo
+        wide variety of Spanish lessons and content. We already know the Colombian slang
+        and local vocabulary, let us help you learn exactly what you'll need to know. Applications like Duolingo
         can help with general learning but a more focused Colombian (Latin American) curriculum can help prepare you
         specifically for a Colombian adventure.
       button2Text: Purchase Options
@@ -57,17 +54,14 @@ intro:
       sectionID: FullCurriculum
       pricing: 3 class Full Curriculum ($50). 5 class Full Curriculum ($80). 10 class Full Curriculum ($140).
       text: >
-        Would you prefer to be taught in English, or do you want to be taught in Spanish? We offer both
-        methods of learning depending on your spanish level and what exactly you would like to improve.
-        There are four main components to focus on when you're learning a new language, Reading, Hearing, Writing, and Speaking!
+        We have developed a full Spanish curriculum which will prepare you for a trip to Colombia. We're prepared to teach
+        the material in Spanish or in English, it's completely up to you depending on how you learn best! Which curriculum you choose depends on how deep you'd like to take your understanding of Spanish. We can't wait to 
+        walk you through the material and help you learn Spanish using our designed approach. We try to focus on each component of learning a new language: Reading, Hearing, Writing, and Speaking!
       button2Text: Purchase Options
       button2Link: /purchase/purchase/#spanishCurriculum
   heading: What we offer
   description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+    unused description
 main:
   heading: Engage and immerse yourself
   description: >
