@@ -10,7 +10,7 @@ const cardStyles = {
   boxShadow: "2px 2px 10px 0 rgba(46,61,73,.2)",
   backgroundColor: "#ffff88",
   borderRadius: "6px",
-  maxWidth: "140px",
+  maxWidth: "125px",
 }
 
 const ProductCard = (props) => {

@@ -27,7 +27,7 @@ const FeatureGrid = ({ gridItems }) => (
               <PreviewCompatibleImage imageInfo={item} />
             </div>
           </div>
-          <p style={{marginTop:'20px'}}><span style={{fontWeight:`bold`}}>Description: </span>{item.text}</p>
+          <p style={{marginTop:'20px', fontSize:`1.25rem`, textAlign:`justify`}}> {/*<span style={{fontWeight:`bold`}}>Description: </span> */}{item.text}</p>
         </section>
           <section className="section" style={{display:`flex`, width:`100%`, flexWrap:`wrap`, justifyContent:`space-evenly`}}>
         
@@ -36,11 +36,11 @@ const FeatureGrid = ({ gridItems }) => (
             </Link>
 
             <Link className="btn" to="/#contactForm" style={{minWidth:`230px`, margin:`5px`}}>
-              Contact Us For Full Details
+              Contact Us
             </Link>
          
                     
-                    {/* <a className="btn"  style={{minWidth:`230px`, margin:`5px`}} href="https://calendly.com/enjoysafetravelscolombia/30-minute-colombia-consultation" target="_blank">Schedule a call with us</a> */}
+                    {/* <a className="btn"  style={{minWidth:`230px`, margin:`5px`}} href="https://calendly.com/enjoysafetravelscolombia/20-minute-colombia-consultation" target="_blank">Schedule a call with us</a> */}
           
           </section>
       </div>

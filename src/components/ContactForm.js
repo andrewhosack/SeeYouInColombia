@@ -1,4 +1,8 @@
 import React from 'react';
+
+import { InlineWidget } from "react-calendly"
+
+
 // import TextField from '@material-ui/core/TextField';
 // import Button from '@material-ui/core/Button';
 
@@ -16,9 +20,9 @@ export default function ContactForm(props) {
   }
   
   const BigText = {
-    // color: '#CC3700',
-    // fontSize: '30px',
-    //backgroundColor: '#f5f5f5',
+    marginTop:'20px',
+    backgroundColor: '#d6400033',
+    padding: '.5rem',
   } 
 
   const contactForm = {
@@ -31,7 +35,7 @@ export default function ContactForm(props) {
     justifyContent: 'center',
     flexDirection: 'column',
     // border: '1px solid #dbdbdb',
-    boxShadow: 'inset 0 0 0 2px #f40',
+    //boxShadow: 'inset 0 0 0 2px #f40',
   }
 
   const contactFormTextField = {
@@ -44,24 +48,32 @@ export default function ContactForm(props) {
   return (
     <div id="contactForm" style={contactForm}>
     <div style={Title}>
-      <span color='white' style={{margin:`0 0 0`, fontWeight:`bold`}}>Get in Contact With Us</span>
+    <span  style={{margin:`0 0 0`, fontWeight:`bold`,fontSize:`25px`, color:`#a33100`}}>Get in Contact With Us</span>
     </div>
 
-    <div style={BigText}>
+    <div style={BigText} className="blog-list-item is-child box">
    
-    <div style={{margin: '5%'}}>
-    <p>Please contact us if you'd like to find out more about our pricing or services! When you reach out please let us know which services you are interested in, any pertinent information, and also a good time and method of reaching you!</p>
-
-    <h4 style={{color:`black`}}>Call us and leave us a message: <a href="tel:888-888-8888">888-888-8888</a></h4>
-    <h4 style={{color:`black`}}>Reach us through Email: <a href="mailto:enjoysafetravelscolombia@google.com">Send an Email</a></h4>
-    <h4 style={{color:`black`}}>Schedule a consultation call via Calendly: <a href="https://calendly.com/enjoysafetravelscolombia/30-minute-colombia-consultation" target="_blank" rel="noreferrer">Schedule a Meeting</a></h4>
-    {/* <TextField id="name" name="name" label="Nombre" variant="outlined" type="email" fullWidth className="contactFormTextField"/>
+    <div>
+    {/* <p>Please contact us if you'd like to find out more about our pricing or services! When you reach out please let us know which services you are interested in, any pertinent information, and also a good time and method of reaching you!</p>*/}
+    <h3 style={{margin:`5%`}}>Have questions about our products, services, or pricing?</h3>
+    <div style={{margin: `5%`}}><h4 style={{color:`#a33100`}}>Reach us through Email: </h4><a style={{fontSize:`100%`}} className="contactFormOptions" href="mailto:enjoysafetravelscolombia@google.com">enjoysafetravelscolombia@google.com</a></div>
+    <div style={{margin: `5%`}}><h4 style={{color:`#a33100`, marginTop:`10px`}}>Schedule a consultation call via Calendly: </h4></div>
+    <div style={{marginTop:`40px`,display:`flex`, justifyContent:`center`, width:`100%`}}>
+    <InlineWidget 
+     color="#00a2ff"
+     text="Schedule a consultation call via Calendly"
+     textColor="#ffffff"
+     url="https://calendly.com/enjoysafetravelscolombia/20-minute-colombia-consultation"
+     styles={{minWidth:`220px`, maxWidth:`770px`, width:`100%`, height:`620px`, borderStyle:`solid`, borderRadius:`5px`, borderColor:`#a33100`}}
+   />
+    </div>
+    <div style={{margin: `5%`}}><h4 style={{color:`#a33100`}}>Call us and leave us a message: </h4><a style={{fontSize:`1.5rem`}} href="tel:888-888-8888">888-888-8888</a></div>
     
-    <Button className="contactFormSubmit" type="submit" variant="contained" fullWidth >Contáctanos</Button> */}
-<h3> If you prefer, you can send us a message here on the following form:</h3>
 </div>
+<div style={{margin:`5%`}}>
+<h3 style={{marginTop:`45px`}}> If you prefer, you can send us a message using the following form:</h3>
 <div>
-<form method="post" action="/contact/thanks/" style={{margin: '5%'}} noValidate autoComplete="off" name={props.formName} netlify-honeypot="bot-field" data-netlify="true">
+<form method="post" action="/contact/thanks/" noValidate autoComplete="off" name={props.formName} netlify-honeypot="bot-field" data-netlify="true">
     <input type="hidden" name="bot-field" /> <input type="hidden" name="form-name" value={props.formName} />
 <p>
   <label style={{color:`black`, display:`flex`, flexDirection:`column`}}>
@@ -72,7 +84,7 @@ export default function ContactForm(props) {
   <p>
   <label style={{color:`black`, display:`flex`, flexDirection:`column`}}>
     Telephone Number
-    <input style={contactFormTextField} type="tel" name="telephone" id="name" />
+    <input style={contactFormTextField} type="tel" name="telephone" id="telephone" />
   </label>
   </p>
   <p>
@@ -93,6 +105,7 @@ export default function ContactForm(props) {
 
         </form>
         </div>
+    </div>
     </div>
     </div>
   );
