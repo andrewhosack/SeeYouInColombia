@@ -5,10 +5,11 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 import ContactForm from '../components/ContactForm'
 
-export const LearnSpanishPageTemplate = ({
+export const TravelSafelyPageTemplate = ({
   image,
   title,
   heading,
@@ -26,6 +27,7 @@ export const LearnSpanishPageTemplate = ({
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
+        backgroundPosition: `center`,
       }}
     >
       <h2
@@ -59,31 +61,19 @@ export const LearnSpanishPageTemplate = ({
               </h2>
               <p className="is-size-5" style={{textAlign:`justify`}}>{pricing.description}</p>
               <Pricing data={pricing.plans} />
-              <div
-                className="full-width-image-container"
-                style={{
-                  backgroundImage: 
-                  `url(${
-                    fullImage.childImageSharp
-                      ? fullImage.childImageSharp.fluid.src
-                      : fullImage
-                  })`,
-                  backgroundPosition: `center`,
-                }}
-              />
-              <Features gridItems={intro.blurbs} />
               <Testimonials testimonials={testimonials} />
-              {/* <div className="columns">
+              <Features gridItems={intro.blurbs} />
+              <div className="columns">
                 <div className="column is-7">
                   <h3 className="has-text-weight-semibold is-size-3">
                     {main.heading}
                   </h3>
-                  <p>{main.description}</p>
+                  <p style={{fontSize:`1.25rem`}}>{main.description}</p>
                 </div>
-              </div> */}
+              </div>
               <div className="tile is-ancestor">
                 <div className="tile is-vertical">
-                  {/* <div className="tile">
+                  <div className="tile">
                     <div className="tile is-parent is-vertical">
                       <article className="tile is-child">
                         <PreviewCompatibleImage imageInfo={main.image1} />
@@ -99,21 +89,34 @@ export const LearnSpanishPageTemplate = ({
                     <article className="tile is-child">
                       <PreviewCompatibleImage imageInfo={main.image3} />
                     </article>
-                  </div> */}
-                  <div style={{marginTop:'50px'}}>
-                    <ContactForm formName="contactFormTravelSafe"></ContactForm>
                   </div>
                 </div>
+              </div>
+              {/* <div
+                className="full-width-image-container"
+                style={{
+                  backgroundImage: `url(${
+                    fullImage.childImageSharp
+                      ? fullImage.childImageSharp.fluid.src
+                      : fullImage
+                  })`,
+                }}
+              /> */}
+              <div style={{marginTop:'50px'}}>
+                <ContactForm formName="contactFormTravelSafely"></ContactForm>
               </div>
             </div>
           </div>
         </div>
+        
       </div>
+      
     </section>
+    
   </div>
 )
 
-LearnSpanishPageTemplate.propTypes = {
+TravelSafelyPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
@@ -137,12 +140,12 @@ LearnSpanishPageTemplate.propTypes = {
   }),
 }
 
-const LearnSpanishPage = ({ data }) => {
+const TravelSafelyPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
   return (
     <Layout>
-      <LearnSpanishPageTemplate
+      <TravelSafelyPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
@@ -157,7 +160,7 @@ const LearnSpanishPage = ({ data }) => {
   )
 }
 
-LearnSpanishPage.propTypes = {
+TravelSafelyPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
@@ -165,10 +168,10 @@ LearnSpanishPage.propTypes = {
   }),
 }
 
-export default LearnSpanishPage
+export default TravelSafelyPage
 
-export const LearnSpanishPageQuery = graphql`
-  query LearnSpanishPage($id: String!) {
+export const TravelSafelyPageQuery = graphql`
+  query TravelSafelyPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
