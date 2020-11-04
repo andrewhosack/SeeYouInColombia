@@ -5,6 +5,9 @@
   "author": "Austin Green",
   "dependencies": {
     "@babel/runtime": "^7.12.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.12",
     "@stripe/stripe-js": "^1.10.0",
     "bulma": "^0.9.0",
     "eslint-loader": "^2.1.2",
@@ -31,6 +34,7 @@
     "node-sass": "^4.14.0",
     "prop-types": "^15.6.0",
     "react": "^16.14.0",
+    "react-calendly": "^1.1.3",
     "react-dom": "^16.14.0",
     "react-helmet": "^6.0.0",
     "sharp": "^0.26.2",
