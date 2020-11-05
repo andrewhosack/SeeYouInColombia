@@ -56,7 +56,7 @@ export default function ContactForm(props) {
     <div>
     {/* <p>Please contact us if you'd like to find out more about our pricing or services! When you reach out please let us know which services you are interested in, any pertinent information, and also a good time and method of reaching you!</p>*/}
     <h3 style={{margin:`5%`}}>Have questions about our products, services, or pricing?</h3>
-    <div style={{margin: `5%`}}><h4 style={{color:`#a33100`}}>Reach us through Email: </h4><a style={{fontSize:`100%`}} className="contactFormOptions" href="mailto:enjoysafetravelscolombia@google.com">enjoysafetravelscolombia@google.com</a></div>
+    <div style={{margin: `5%`}}><h4 style={{color:`#a33100`}}>Reach us through Email: </h4><a style={{fontSize:`100%`}} className="contactFormOptions" href="mailto:enjoysafetravelscolombia@gmail.com">enjoysafetravelscolombia@gmail.com</a></div>
     <div style={{margin: `5%`}}><h4 style={{color:`#a33100`, marginTop:`10px`}}>Schedule a consultation call via Calendly: </h4></div>
     <div style={{marginTop:`40px`,display:`flex`, justifyContent:`center`, width:`100%`}}>
     <InlineWidget 

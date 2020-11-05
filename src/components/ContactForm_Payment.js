@@ -68,7 +68,7 @@ export default function ContactForm(props) {
     <span style={{fontWeight:`bold`, color:`#a33100`, fontSize:`1.5rem`, margin:`30px`}}>Step 2: Make the appointment using Calendly.</span>
     {/* <h4 style={{color:`black`}}>Schedule the Spanish evaluation call via Calendly (below)</h4>
     <h4 style={{color:`black`}}>Call us (Either tell us your availability or leave us a message): <a href="tel:888-888-8888">888-888-8888</a></h4>
-    <h4 style={{color:`black`, marginBottom:`30px`}}>Reach us through Email: <a href="mailto:enjoysafetravelscolombia@google.com">enjoysafetravelscolombia@google.com</a></h4>
+    <h4 style={{color:`black`, marginBottom:`30px`}}>Reach us through Email: <a href="mailto:enjoysafetravelscolombia@gmail.com">enjoysafetravelscolombia@gmail.com</a></h4>
      */}
     <div style={{marginTop:`40px`,display:`flex`, justifyContent:`center`, width:`100%`}}>
       <InlineWidget 
@@ -148,7 +148,7 @@ export default function ContactForm(props) {
     <h3 style={{fontWeight:`bold`, margin:`30px`}}><span style={{fontWeight:`bold`, color:`#a33100`, fontSize:`1.5rem`}}>Step 2: Schedule the Presentation using Calendly!</span></h3>
     {/* <h4 style={{color:`black`}}>Schedule the Presentation call via Calendly (below) </h4>
     <h4 style={{color:`black`}}>Call us (Leave a message): <a href="tel:888-888-8888">888-888-8888</a></h4>
-    <h4 style={{color:`black`, marginBottom:`30px`}}>Reach us through Email: <a href="mailto:enjoysafetravelscolombia@google.com">enjoysafetravelscolombia@google.com</a></h4>
+    <h4 style={{color:`black`, marginBottom:`30px`}}>Reach us through Email: <a href="mailto:enjoysafetravelscolombia@gmail.com">enjoysafetravelscolombia@gmail.com</a></h4>
      */}
     {(props.itemPurchased.indexOf("1 hour - Colombia Presentation") >= 0)  &&
     <div style={{marginTop:`40px`,display:`flex`, justifyContent:`center`, width:`100%`}}>
