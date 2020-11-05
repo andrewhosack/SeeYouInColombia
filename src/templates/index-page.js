@@ -80,10 +80,10 @@ export const IndexPageTemplate = ({
                   </div>
                   <div className="tile">
                     {/* <h3 className="subtitle">{mainpitch.description}</h3> */}
-                    <h3 className="subtitle">Whether you take advantage of one of our in-depth 
-                    <Link to="/travelsafely/#customizedPresentation"> Q&A presentations</Link>, 
-                    <Link to="/learnspanish/"> learn Colombian Spanish and phrases with us</Link>, 
-                    <Link to="/travelsafely/#travelConsulting/"> or want 24/7 support while you plan or travel Colombia</Link>,  you're going to find a new friend and partner in Enjoy Safe Travels Colombia.</h3>
+                    <h3 className="subtitle">Whether you take advantage of one of our in-depth{" "}
+                    <Link to="/travelsafely/#customizedPresentation" style={{textDecoration:`underline`}}>Q&A presentations</Link>,{" "}
+                    <Link to="/learnspanish/"  style={{textDecoration:`underline`}}>learn Colombian Spanish and phrases with us</Link>,{" "}
+                    <Link to="/travelsafely/#travelConsulting/"  style={{textDecoration:`underline`}}> or want 24/7 support while you plan or travel Colombia</Link>,  you're going to find a new friend and partner in Enjoy Safe Travels Colombia.</h3>
                   </div>
                 </div>
                 {/* <div className="columns">

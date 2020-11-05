@@ -19,11 +19,11 @@ export const AboutPageTemplate = ({ title, content, contentComponent, main }) =>
               </h2>
               <PageContent className="content" content={content} />
               <div className="columns">
-                <div className="column is-7">
+                <div className="column is-5" style={{width:`80%`, minWidth:`305px`}}>
                 <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {main.heading}
               </h2>
-                  <p>{main.description}</p>
+                  <p style={{fontSize:`1.25rem`, textAlign:`justify`}}>{main.description}</p>
                 </div>
               </div>
               <div className="tile is-ancestor">
