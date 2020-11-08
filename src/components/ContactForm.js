@@ -82,6 +82,7 @@ export default function ContactForm(props) {
     backgroundColor: "#fff",
     marginTop:"3rem",
     maxHeight:"370px",
+    minWidth:"260px",
   }
 
   const helpStyles = {
@@ -90,6 +91,7 @@ export default function ContactForm(props) {
     flexDirection: "column",
     padding: "1rem",
     marginTop:"3rem",
+    minWidth:"260px",
   }
 
   const contactFormStyles = {
@@ -121,25 +123,25 @@ export default function ContactForm(props) {
     <form method="post" action="/contact/thanks/" noValidate autoComplete="off" name={props.formName} netlify-honeypot="bot-field" data-netlify="true">
     <input type="hidden" name="bot-field" /> <input type="hidden" name="form-name" value={props.formName} />
     
-    <div style={{display:`flex`, flexDirection:`column`, marginLeft:`28px`}}>
+    <div style={{display:`flex`, flexDirection:`column`, marginLeft:`15px`}}>
       <label style={contactFormLabel}>
         NAME: 
       </label>
       <input style={contactFormTextField} type="text" name="name" id="name" />
       </div>
-    <div style={{display:`flex`, flexDirection:`column`, marginLeft:`28px`}}>
+    <div style={{display:`flex`, flexDirection:`column`, marginLeft:`15px`}}>
     <label style={contactFormLabel}>
         TELEPHONE NUMBER
       </label>
       <input style={contactFormTextField} type="tel" name="telephone" id="telephone" />
     </div>
-    <div style={{display:`flex`, flexDirection:`column`, marginLeft:`28px`}}>
+    <div style={{display:`flex`, flexDirection:`column`, marginLeft:`15px`}}>
     <label style={contactFormLabel}>
         EMAIL
       </label>
       <input style={contactFormTextField} type="email" name="email" id="email" />
     </div>
-    <div style={{display:`flex`, flexDirection:`column`, marginLeft:`28px`}}>
+    <div style={{display:`flex`, flexDirection:`column`, marginLeft:`15px`}}>
     <label style={contactFormLabel}>
         MESSAGE
       </label>
@@ -155,7 +157,7 @@ export default function ContactForm(props) {
     </div>
     
     {/*Contact Info card */}
-    <div className="columns is-multiline" style={{justifyContent:`center`}}> {/* style={{display:`flex`, justifyContent:`center`, flexWrap:`wrap`}}*/}
+    <div className="columns is-multiline" style={{display:`flex`,justifyContent:`center`}}> {/* style={{display:`flex`, justifyContent:`center`, flexWrap:`wrap`}}*/}
     <div className="is-parent column is-6 contactContactCard" style={cardStyles}>
       <h4 style={{margin:`0 0 0`, width:`100%`, textAlign:`left`}}>Contact Information</h4>
 
