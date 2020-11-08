@@ -212,7 +212,7 @@ const ProductCard = ({ product }) => {
           </div>
           }
 
-
+          <div style={{width:`100%`, display:`flex`, justifyContent:`flex-end`}}>
           <button
             disabled={loading}
             style={
@@ -223,7 +223,22 @@ const ProductCard = ({ product }) => {
           >
             BUY ME
           </button>
+          </div>
           
+          {(product.name.indexOf("Lessons") >= 0  || product.name.indexOf("Curriculum") >= 0) &&
+          <div style={{width:'100%', display:'flex', justifyContent:'flex-start', marginTop:`10px`}}>           
+              {/* <ul style={{listStyleType:`square`, color:`red`}}> */}
+              <p><span style={{fontWeight:`bold`}}>Instructions: </span>Schedule the evaluation call via Calendly after the purchase is complete</p>
+              {/* </ul> */}
+            </div>
+          }
+          {product.name.indexOf("Presentation") >= 0  &&
+          <div style={{width:'100%', display:'flex', justifyContent:'flex-start', marginTop:`10px`}}>           
+              {/* <ul style={{listStyleType:`square`, color:`red`}}> */}
+                <p><span style={{fontWeight:`bold`}}>Instructions: </span>Schedule the presentation via Calendly after the purchase is complete</p>
+              {/* </ul> */}
+            </div>
+          }
           
 
         </div>

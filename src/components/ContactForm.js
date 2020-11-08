@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby'
 
-import { InlineWidget } from "react-calendly"
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
@@ -52,6 +50,7 @@ export default function ContactForm(props) {
     padding:'5px',
     fontSize:'16px',
     fontWeight:'700',
+    width:'250px',
   }
 
   const contactFormTextField = {

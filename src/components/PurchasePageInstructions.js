@@ -23,17 +23,6 @@ const PurchasePageInstructions = (props) => {
  return (
   <div style={{width:'100%', display:'flex', justifyContent:'flex-start', marginBottom: '20px'}}>
     <div style={{display:'flex', justifyContent:'flex-start', flexDirection:`column`}}>              
-     
-      {/* <label >
-        <h2>Step 1: {props.step1}</h2>
-        {' '} 
-      </label>
-     
-      <label >
-        <h2>Step 2: {props.step2}</h2>
-        {' '} 
-      </label>  */}
-
       <ul style={{listStyleType:`square`, color:`red`}}>
         <li>Step 1: {props.step1}</li>
         <li>Step 2: {props.step2}</li>
