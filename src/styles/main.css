@@ -28,13 +28,22 @@ textarea {
     /* width: 275px;  */
  }
 
-  /* @media only screen and (max-width:450px) {
-    section {
-      padding: 3rem 1rem !important;
+ .hr-styleOne {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+   @media only screen and (min-width:769px) {
+    .contactHelpCard {
+      width:45% !important;
+      margin-left:40px !important;
     }
-    div.section {
-      padding: 3rem 1rem !important;
+
+    .contactContactCard {
+      width:45% !important;
     }
-  } */
+  } 
 
   
