@@ -80,8 +80,10 @@ export default class Index extends React.Component {
       <Layout>
         <section className="section">
           <div className="container">
-            <div className="content">
-              <h1>Thank you for purchasing "{this.state.itemPurchased}", at a cost of {formatPrice(this.state.amount_total, 'usd')}.</h1>
+            <div className="content" style={{display:`flex`, flexDirection:`column`, alignItems:`center`}}>
+              <h3>Thank you for purchasing!</h3>
+              <h4>"{this.state.itemPurchased}", for {formatPrice(this.state.amount_total, 'usd')}.</h4>
+              
           </div>
           {/* <p style={{fontSize:`40px`, color:`red`, textAlign:`center`, marginTop:`30px`}}>Now just schedule a time to meet below</p> */}
             <ContactForm formName="purchasePage" itemPurchased={this.state.itemPurchased}></ContactForm>

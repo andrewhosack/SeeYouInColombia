@@ -9,6 +9,21 @@ import PurchasePageInstructions from "../../components/PurchasePageInstructions"
 export default class Index extends React.Component {
   
   render() {
+
+    const cardStyles = {
+      display: "flex",
+      flexWrap: "wrap",
+      maxWidth: "970px",
+      flexDirection: "row",
+      justifyContent: "center",
+      padding: "1rem",
+      marginBottom: "1rem",
+      boxShadow: "5px 5px 25px 0 rgba(46,61,73,.2)",
+      backgroundColor: "#fff",
+      borderRadius: "6px",
+      width:"fit-content",
+    }
+
     return (
       <Layout>
         <section className="section">
@@ -28,7 +43,7 @@ export default class Index extends React.Component {
                 Topics to learn about in the presentation:
               </h2>
               <div style={{width:'100%', display:'flex', justifyContent:'center', marginBottom: '20px'}}>
-                <div style={{display:'flex', flexWrap:'wrap', borderStyle:'solid', maxWidth:'770px', justifyContent:'center', borderColor: `gainsboro`}}>              
+                <div style={cardStyles}>
                   <PresentationCard topic="The major cities and touristic towns" />
                   <PresentationCard topic="Real safety tips for travel in Colombia" />
                   <PresentationCard topic="General Travel Tips" />
@@ -41,7 +56,7 @@ export default class Index extends React.Component {
                 </div>
               </div>
               <Products productsToDisplay="Presentation" />
-              <PurchasePageInstructions step1="Purchase a presentation" step2="Schedule the presentation via Calendly after the purchase is complete"></PurchasePageInstructions>
+              {/* <PurchasePageInstructions step1="Purchase a presentation" step2="Schedule the presentation via Calendly after the purchase is complete"></PurchasePageInstructions> */}
               <h1 id="spanishLessons">Group or Individual Spanish Lessons:</h1>
               <p style={{textAlign:`justify`}}>
                 You can choose how many classes you'd like to purchase. There is a discount when you purchase a higher quantity of classes.
@@ -50,7 +65,7 @@ export default class Index extends React.Component {
                 <span style={{fontWeight:`bold`}}>  If you are puchasing Group Classes with a friend(s), each student will need to purchase the classes separately.</span>
               </p>
               <Products productsToDisplay="Lessons" />
-              <PurchasePageInstructions step1="Purchase the Spanish Lessons you are most interested in" step2="Schedule the evaluation call via Calendly after the purchase is complete"></PurchasePageInstructions>
+              {/* <PurchasePageInstructions step1="Purchase the Spanish Lessons you are most interested in" step2="Schedule the evaluation call via Calendly after the purchase is complete"></PurchasePageInstructions> */}
               <h1 id="spanishCurriculum">Full Colombian Spanish Curriculum Options:</h1>
               <p style={{textAlign:`justify`}}>
                 We have created 3, 5, and 10 class Spanish curriculums to get you up to speed with Colombian Spanish. We'll provide you with
@@ -59,7 +74,7 @@ export default class Index extends React.Component {
                 like to take your understanding.
               </p>
               <Products productsToDisplay="Curriculum" />
-              <PurchasePageInstructions step1="Purchase the Spanish Curriculum you are most interested in" step2="Schedule the evaluation call via Calendly after the purchase is complete"></PurchasePageInstructions>
+              {/* <PurchasePageInstructions step1="Purchase the Spanish Curriculum you are most interested in" step2="Schedule the evaluation call via Calendly after the purchase is complete"></PurchasePageInstructions> */}
             </div>
           </div>
         </section>
