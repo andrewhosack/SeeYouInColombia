@@ -24,7 +24,7 @@ const Footer = class extends React.Component {
               <div className="column is-4">
                 <section className="menu">
                   <ul className="menu-list">
-                    <li>
+                    <li style={{fontSize:`1.2rem`}}>
                       <Link to="/" className="navbar-item">
                         Home
                       </Link>
@@ -34,17 +34,17 @@ const Footer = class extends React.Component {
                         Is it Safe in Colombia?
                       </Link>
                     </li> */}
-                    <li>
+                    <li style={{fontSize:`1.2rem`}}>
                       <Link className="navbar-item" to="/travelsafely">
                         Travel Safely
                       </Link>
                     </li>
-                    <li>
+                    <li style={{fontSize:`1.2rem`}}>
                       <Link className="navbar-item" to="/learnspanish">
                         Learn Spanish with us
                       </Link>
                     </li>
-                    <li>
+                    <li style={{fontSize:`1.2rem`}}>
                       <Link className="navbar-item" to="/contact/examples">
                         Who we are
                       </Link>
@@ -65,12 +65,12 @@ const Footer = class extends React.Component {
               <div className="column is-4">
                 <section>
                   <ul className="menu-list">
-                    <li>
+                    <li style={{fontSize:`1.2rem`}}>
                       <Link className="navbar-item" to="/purchase/purchase">
                         Purchase
                       </Link>
                     </li>
-                    <li>
+                    <li style={{fontSize:`1.2rem`}}>
                       <Link className="navbar-item" to="/blog">
                         Blog
                       </Link>

@@ -59,7 +59,7 @@ export default function ContactForm(props) {
     </div>
 
     <div style={{marginBottom:`20px`, marginTop:`40px`}}>
-      <p style={{textAlign:`center`, margin:`1rem`}}><span style={{fontWeight:'bold', marginRight:`4px`}}>Important:</span>If you do not contact us, we will contact you via the email you used at the time of purchase!</p>
+      <p style={{textAlign:`center`, margin:`1rem`}}><span style={{fontWeight:'bold', marginRight:`4px`, fontSize:`20px`}}>Important:</span>If you do not contact us, we will contact you via the email you used at the time of purchase!</p>
     </div>
 
 
@@ -71,7 +71,7 @@ export default function ContactForm(props) {
         <p style={{marginTop:`1rem`, marginBottom:`1rem`, width:`100%`, textAlign:`center`, fontWeight:`bold`, color:`rgb(163, 49, 0)`, fontSize:`1.5rem`}}>Step 1: Decide when you want the the 20 minute Spanish evaluation.</p>
           <div className="box" style={{display:'flex', justifyContent:'center',flexDirection:`column`, backgroundColor:`white`, margin:`1rem`}}>
             <div style={cardStyles}>
-              <p style={{margin:`30px`}}>The next step before we start learning Spanish together, is for us to meet for a free 20 minute evaluation to figure out your current level of Spanish and to discuss your Spanish goals! Please sign up on our Calendly for a time that works for you, the process is simple.</p>
+              <p style={{margin:`30px`, fontSize:`20px`}}>The next step before we start learning Spanish together, is for us to meet for a free 20 minute evaluation to figure out your current level of Spanish and to discuss your Spanish goals! Please sign up on our Calendly for a time that works for you, the process is simple.</p>
             </div>
           </div>
         </div>
