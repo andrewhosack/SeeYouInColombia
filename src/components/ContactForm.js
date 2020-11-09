@@ -68,6 +68,7 @@ export default function ContactForm(props) {
     width:'250px',
     height:`77px`,
     padding:'9px 20px',
+    fontFamily:`Eb Garamond`
   }
 
   const cardStyles = {
@@ -145,8 +146,8 @@ export default function ContactForm(props) {
       <textarea style={contactFormTextArea} name="message" id="message" rows="5" placeholder="I'd like more information about..."/>
     </div>
       <div style={{display:`flex`, flexDirection:`row`, marginLeft:`20px`, marginTop:`10px`}}>
-        <button className="button is-link" type="submit" style={{margin:`5px`, width:`122px`}}>Send</button>
-        <input className="button is-link" type="reset" value="Clear" style={{margin:`5px`, width:`122px`}}/>
+        <button className="button is-link" type="submit" style={{margin:`5px`, width:`122px`, fontFamily:`EB Garamond`}}>Send</button>
+        <input className="button is-link" type="reset" value="Clear" style={{margin:`5px`, width:`122px`, fontFamily:`EB Garamond`}}/>
       </div>
         </form>
      
