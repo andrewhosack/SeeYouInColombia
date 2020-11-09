@@ -173,7 +173,7 @@ export default function ContactForm(props) {
 
       <div style={{display:`flex`, flexDirection:`row`, marginTop:`2rem`}}>
         <FontAwesomeIcon style={{marginTop:`5px`}} icon={faMapMarkerAlt} />
-        <span style={{marginLeft:`2rem`, fontSize:`1.1rem`}}>Medellin, Antioquia, Colombia.</span>
+        <span style={{marginLeft:`2rem`, fontSize:`1.1rem`}}>Medellin, Antioquia, Colombia</span>
       </div>
      
     </div>
@@ -185,15 +185,13 @@ export default function ContactForm(props) {
       <p style={{marginTop:`2rem`}}>Please select a topic below related to your inquiry. If you don’t find what you need, fill out our contact form.</p>
       
       <div style={{display:`flex`, flexDirection:`column`, marginTop:`2rem`}}>
-        <h4><Link to="../#contactForm" >
-                      Book a Consultation Call
-                    </Link></h4>
+        <h4><a href="https://calendly.com/enjoysafetravelscolombia/20-minute-colombia-consultation">Book a Consultation Call</a></h4>
         <span style={{fontSize:`1.1rem`}}>Schedule a quick call to discuss our services and products.</span>
       </div>
       <div style={{marginTop:`2rem`, width:`100%`, borderBottomStyle:`solid`, borderBottomColor:`black`, borderBottom:`2px solid rgba(0,0,0,.1)`}}></div>
       
       <div style={{display:`flex`, flexDirection:`column`, marginTop:`2rem`}}>
-        <h4><Link to="../#contactForm" >
+        <h4><Link to="../#presentation" >
                       Review Services We Offer
                     </Link></h4>
         <span style={{fontSize:`1.1rem`}}>Discover the many ways we are helping our clients.</span>

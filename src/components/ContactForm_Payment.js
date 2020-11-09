@@ -78,7 +78,7 @@ export default function ContactForm(props) {
         </div>
     
       <div className="is-parent column is-6">
-        <p style={{marginTop:`1rem`, marginBottom:`1rem`, width:`100%`, textAlign:`center`, fontWeight:`bold`, color:`rgb(163, 49, 0)`, fontSize:`1.5rem`}}>Step 2: Make the appointment using Calendly.</p>
+        <p style={{marginTop:`1rem`, marginBottom:`1rem`, width:`100%`, textAlign:`center`, fontWeight:`bold`, color:`rgb(163, 49, 0)`, fontSize:`1.5rem`}}>Step 2: Schedule the evaluation!</p>
         <div  className="box" style={{display:`flex`, justifyContent:`center`, width:`92%`, height:`650px`, backgroundColor:`white`, margin:`1rem`}}>
           <InlineWidget 
           color="#00a2ff"
@@ -96,7 +96,7 @@ export default function ContactForm(props) {
     <div className="columns is-multiline" >
       
       <div className="is-parent column is-6">
-      <p style={{marginTop:`1rem`, marginBottom:`1rem`, width:`100%`, textAlign:`center`, fontWeight:`bold`, color:`rgb(163, 49, 0)`, fontSize:`1.5rem`}}>Step 1: Decide which topics to focus on</p>
+      <p style={{marginTop:`1rem`, marginBottom:`1rem`, width:`100%`, textAlign:`center`, fontWeight:`bold`, color:`rgb(163, 49, 0)`, fontSize:`1.5rem`}}>Step 1: Decide which topics to focus on (you will include them on the calendar invite)</p>
         <div className="box" style={{display:'flex', justifyContent:'center',flexDirection:`column`, marginBottom: '20px', backgroundColor:`white`, margin:`1rem`}}>
           <div style={cardStyles}>
             <PresentationCard topic="The major cities and touristic towns" />
@@ -113,7 +113,7 @@ export default function ContactForm(props) {
       </div>
 
       <div className="is-parent column is-6">
-        <p style={{marginTop:`1rem`, marginBottom:`1rem`, width:`100%`, textAlign:`center`, fontWeight:`bold`, color:`rgb(163, 49, 0)`, fontSize:`1.5rem`}}>Step 2: Schedule the Presentation using Calendly!</p>
+        <p style={{marginTop:`1rem`, marginBottom:`1rem`, width:`100%`, textAlign:`center`, fontWeight:`bold`, color:`rgb(163, 49, 0)`, fontSize:`1.5rem`}}>Step 2: Schedule the Presentation!</p>
         
         {(props.itemPurchased.indexOf("1 hour - Colombia Presentation") >= 0)  &&
         <div className="box" style={{display:`flex`, justifyContent:`center`, width:`92%`, height:`650px`, backgroundColor:`white`, margin:`1rem`}}>
