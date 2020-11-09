@@ -85,14 +85,13 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          {
-            family: `EB Garamond`,
-            variants: [`400`, `700`]
-          },
+          `EB Garamond`,
+          `source sans pro\:300,400,400i,700` // you can also specify font weights and styles
         ],
+        display: 'swap'
       }
     },
     'gatsby-plugin-netlify', // make sure to keep it last in the array
