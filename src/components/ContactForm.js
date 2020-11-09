@@ -47,7 +47,7 @@ export default function ContactForm(props) {
     marginBottom: '10px',
     backgroundColor: 'white !important',
     padding:'5px',
-    fontSize:'20px',
+    fontSize:'18px',
     fontWeight:'700',
     width:'250px',
   }
