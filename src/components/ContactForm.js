@@ -45,7 +45,6 @@ export default function ContactForm(props) {
 
   const contactFormLabel = {
     marginBottom: '10px',
-    fontFamily: 'Georgia Serif !important',
     backgroundColor: 'white !important',
     padding:'5px',
     fontSize:'16px',
@@ -55,7 +54,6 @@ export default function ContactForm(props) {
 
   const contactFormTextField = {
     marginBottom: '15px !important',
-    fontFamily: 'Georgia Serif !important',
     backgroundColor: 'white !important',
     marginBottom:`20px`,
     width:'250px',
@@ -65,7 +63,6 @@ export default function ContactForm(props) {
 
   const contactFormTextArea = {
     marginBottom: '15px !important',
-    fontFamily: 'Georgia Serif !important',
     backgroundColor: 'white !important',
     marginBottom:`20px`,
     width:'250px',

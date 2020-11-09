@@ -36,7 +36,6 @@ export default function ContactForm(props) {
 
   const contactFormTextField = {
     marginBottom: '15px !important',
-    fontFamily: 'Georgia Serif !important',
     backgroundColor: 'white !important',
     padding:'5px'
   }
