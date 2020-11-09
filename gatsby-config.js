@@ -4,9 +4,9 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'Enjoy Safe Travels. Colombia.',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'Enjoy Safe Travels Colombia is a resource for learning more about Colombia, learning Colombian Spanish, and find travel consulting and travel support resources.',
   },
   plugins: [
     'gatsby-plugin-sharp',
@@ -83,6 +83,17 @@ module.exports = {
         secretKey: process.env.GATSBY_STRIPE_SECRET_KEY,
         downloadFiles: true,
       },
+    },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `EB Garamond`,
+            variants: [`400`, `700`]
+          },
+        ],
+      }
     },
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
