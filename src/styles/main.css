@@ -83,6 +83,18 @@ p {
     max-width: 275px;
  }
 
+/* About Page */
+.aboutCard {
+  font-size:1.25rem; 
+  text-align:justify; 
+  box-shadow:5px 5px 25px 0 rgba(46,61,73,.2);
+  border-top:1.5px solid red; 
+  padding: 10px; 
+  border-top-right-radius:12px; 
+  border-top-left-radius:12px;
+  font-size:1.25rem; 
+  text-align:justify
+}
 
 textarea { 
     -webkit-border-radius: 5px; 
