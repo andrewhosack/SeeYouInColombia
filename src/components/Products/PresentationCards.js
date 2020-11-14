@@ -11,7 +11,7 @@ const cardStyles = {
   backgroundColor: "#ffff88",
   borderRadius: "6px",
   // maxWidth: "125px",
-  fontSize:"14px",
+  fontSize:"1.1em",
 }
 
 const ProductCard = (props) => {

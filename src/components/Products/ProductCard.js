@@ -13,6 +13,10 @@ const cardStyles = {
   backgroundColor: "#fff",
   borderRadius: "6px",
   maxWidth: "300px",
+  borderTop: `1.5px solid red`, 
+  padding: `10px`,
+  borderTopRightRadius: `12px`,
+  borderTopLeftRadius: `12px`,
 }
 const buttonStyles = {
   display: "block",
