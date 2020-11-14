@@ -72,16 +72,17 @@ const NavbarDropDown = class extends React.Component {
                       </div>
                    </div>
                  </div>
-                 <Link className="navbar-item" to="/purchase/purchase">
+                 
+              </div> 
+              <Link className="navbar-item desktopView" to="/purchase/purchase">
                 Pricing
               </Link>
-              <Link className="navbar-item" to="/about">
+              <Link className="navbar-item desktopView" to="/about">
                 Who we are
               </Link>
-              <Link className="navbar-item" to="/blog">
+              <Link className="navbar-item desktopView" to="/blog">
                 Blog
               </Link>
-              </div> 
               </div>
     )
   }
