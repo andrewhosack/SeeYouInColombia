@@ -28,7 +28,7 @@ const NavbarDropDown = class extends React.Component {
                     </div>
                   </div>
                     <div style={{display:`flex`,flexWrap:`wrap`,width:`70%`, height:`250px`}}>
-                      <Link to="/travelSafely/#customizedPresentation" style={{width:`50%`, height:`125px`}}>
+                      <Link to="/travelsafely/#customizedPresentation" style={{width:`50%`, height:`125px`}}>
                         <div style={{width:`100%`, height:`125px`, display:`flex`,flexDirection:`row`,padding:`15px`}}>
                           <div style={{width:`35px`}}>
                             <FontAwesomeIcon className="test" style={{width:`35px`, height:`70px`,color:`rgb(255, 68, 0)`}}  icon={faFilePowerpoint} />
@@ -39,7 +39,7 @@ const NavbarDropDown = class extends React.Component {
                           </div>
                         </div>
                       </Link>
-                      <Link to="/learnSpanish" style={{width:`50%`, height:`125px`}}>
+                      <Link to="/learnspanish" style={{width:`50%`, height:`125px`}}>
                         <div style={{width:`100%`, height:`125px`, display:`flex`,flexDirection:`row`,padding:`15px`}}>
                           <div style={{width:`35px`}}>
                             <FontAwesomeIcon style={{width:`35px`, height:`70px`,color:`rgb(255, 68, 0)`}}  icon={faSchool} />
@@ -50,7 +50,7 @@ const NavbarDropDown = class extends React.Component {
                           </div>
                         </div>
                       </Link>
-                      <Link to="/travelSafely" style={{width:`50%`, height:`125px`}}>
+                      <Link to="/travelsafely" style={{width:`50%`, height:`125px`}}>
                         <div style={{width:`100%`, height:`125px`, display:`flex`,flexDirection:`row`,padding:`15px`}}>
                           <div style={{width:`35px`}}>
                             <FontAwesomeIcon style={{width:`35px`, height:`70px`,color:`rgb(255, 68, 0)`}}  icon={faPassport} />

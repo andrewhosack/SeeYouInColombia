@@ -23,7 +23,7 @@ const NavbarDropDown = class extends React.Component {
                     </div>
                   </div>
                     <div style={{display:`flex`,flexDirection:`column`,width:`100%`}}>
-                      <Link to="/travelSafely/#customizedPresentation" style={{width:`100%`,marginLeft:`5px`,marginBottom:`15px`,marginTop:`15px`}}>
+                      <Link to="/travelsafely/#customizedPresentation" style={{width:`100%`,marginLeft:`5px`,marginBottom:`15px`,marginTop:`15px`}}>
                         <div style={{width:`100%`,display:`flex`,flexDirection:`row`,padding:`5px`}}>
                           <div style={{width:`35px`}}>
                             <FontAwesomeIcon className="test" style={{width:`35px`, height:`70px`,color:`rgb(255, 68, 0)`}}  icon={faFilePowerpoint} />
@@ -34,7 +34,7 @@ const NavbarDropDown = class extends React.Component {
                           </div>
                         </div>
                       </Link>
-                      <Link to="/learnSpanish" style={{width:`100%`,marginLeft:`5px`,marginBottom:`15px`}}>
+                      <Link to="/learnspanish" style={{width:`100%`,marginLeft:`5px`,marginBottom:`15px`}}>
                         <div style={{width:`100%`,display:`flex`,flexDirection:`row`,padding:`5px`}}>
                           <div style={{width:`35px`}}>
                             <FontAwesomeIcon style={{width:`35px`, height:`70px`,color:`rgb(255, 68, 0)`}}  icon={faSchool} />
@@ -45,7 +45,7 @@ const NavbarDropDown = class extends React.Component {
                           </div>
                         </div>
                       </Link>
-                      <Link to="/travelSafely" style={{width:`100%`,marginLeft:`5px`,marginBottom:`15px`}}>
+                      <Link to="/travelsafely" style={{width:`100%`,marginLeft:`5px`,marginBottom:`15px`}}>
                         <div style={{width:`100%`,display:`flex`,flexDirection:`row`,padding:`5px`}}>
                           <div style={{width:`35px`}}>
                             <FontAwesomeIcon style={{width:`35px`, height:`70px`,color:`rgb(255, 68, 0)`}}  icon={faPassport} />
