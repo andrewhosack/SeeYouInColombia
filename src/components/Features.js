@@ -27,8 +27,8 @@ const FeatureGrid = ({ gridItems }) => (
               <PreviewCompatibleImage imageInfo={item} />
             </div>
           </div>
-          <p style={{marginTop:'20px', fontSize:`1.25rem`, textAlign:`justify`}}><span style={{fontWeight:`bold`}}>Description: </span>{item.text}</p>
-          <p style={{fontSize:`1.25rem`}}><span style={{fontWeight:`bold`}}>Pricing: </span>{item.pricing}</p>
+          <p style={{marginTop:'20px', fontSize:`1.25rem`, textAlign:`center`}}><span style={{fontWeight:`bold`}}>Description: </span>{item.text}</p>
+          <p style={{fontSize:`1.25rem`, textAlign:`center`}}><span style={{fontWeight:`bold`}}>Pricing: </span>{item.pricing}</p>
         </section>
           <section className="section" style={{display:`flex`, width:`100%`, flexWrap:`wrap`, justifyContent:`space-evenly`}}>
         

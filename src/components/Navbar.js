@@ -83,7 +83,9 @@ const Navbar = class extends React.Component {
             style={{fontSize:`1.2rem`}}
           >
               <NavbarDropDown/>
+              {/* <div on={() => this.toggleHamburger()}> */}
               <NavbarMobile/>
+              {/* </div> */}
             {/* <div className="navbar-start has-text-centered"> */}
               {/* This is for Spanish Lesson purchases */}
               

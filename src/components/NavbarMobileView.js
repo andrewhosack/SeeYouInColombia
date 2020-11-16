@@ -11,8 +11,8 @@ import { faUserLock } from '@fortawesome/free-solid-svg-icons'
 const NavbarDropDown = class extends React.Component {
   render() {
     return (
-      <div className="navbar-start has-text-centered" style={{display:`flex`,justifyContent:`center`}}>
-        <div className="mobileView box" style={{boxShadow:`5px 5px 25px 0 rgba(46,61,73,.2)`,maxWidth:`450px`,display:`flex`, flexDirection:`column`,borderTop: `1.5px solid red`, padding: `10px` ,borderTopRightRadius: `12px`,borderTopLeftRadius: `12px`,margin:`20px`}}>
+      <div className="navbar-start has-text-centered" style={{display:`flex`,justifyContent:`right`, left:`0`, right:`0`, marginLeft:`auto`, marginRight:`auto`, position:`absolute`}}>
+        <div className="mobileView box" style={{boxShadow:`5px 5px 25px 0 rgba(46,61,73,.2)`,maxWidth:`450px`,display:`flex`, flexDirection:`column`,borderTop: `1.5px solid red`, padding: `10px` ,borderTopRightRadius: `12px`,borderTopLeftRadius: `12px`,margin:`20px`,marginTop:`0px`}}>
                 
                 <div style={{display:`flex`,flexDirection:`row`}}>
             
@@ -70,9 +70,16 @@ const NavbarDropDown = class extends React.Component {
                    <Link className="navbar-item" to="/purchase/purchase">
                     Pricing
                     </Link>
-                    <Link className="navbar-item" to="/about">
+                    {/* <Link className="navbar-item" to="/about">
                       Who we are
-                    </Link>
+                    </Link> */}
+                    <span  className="navbar-item" >Company</span>
+                    <Link to="/about" className="navbar-item" style={{height:`50px`,display:`flex`, alignItems:`center`,marginLeft:`20px`,fontWeight:`lighter`}}>
+                        Who we are
+                      </Link>
+                      <Link to="/contact/" className="navbar-item" style={{height:`60px`,display:`flex`, alignItems:`center`,marginLeft:`20px`,fontWeight:`lighter`}}>
+                        Contact Us
+                      </Link>
                       <Link className="navbar-item" to="/blog">
                         Blog
                     </Link>

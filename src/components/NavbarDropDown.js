@@ -74,12 +74,31 @@ const NavbarDropDown = class extends React.Component {
                  </div>
                  
               </div> 
+
+              
+              {/* Company tab */}
+              {/* <Link className="navbar-item desktopView" to="/about">
+                Who we are
+              </Link> */}
+
               <Link className="navbar-item desktopView" to="/purchase/purchase">
                 Pricing
               </Link>
-              <Link className="navbar-item desktopView" to="/about">
-                Who we are
-              </Link>
+              
+              <div className="tooltip desktopView" style={{display:`flex`, flexDirection:`row`,alignItems:`center`,justifyContent:`center`}}>
+                Company <FontAwesomeIcon style={{height:`20px`, marginBottom:`5px`, marginLeft:`3px`}}  icon={faSortDown} />
+                <div className="tooltiptext box" style={{display:`flex`,flexDirection:`column`, width:`200px`,height:`110px`,marginLeft:`-100px`}}>
+                    <div style={{display:`flex`,flexDirection:`column`,width:`100%`, height:`100px`}}>
+                      <Link to="/about" style={{height:`50px`,display:`flex`, alignItems:`center`,justifyContent:`center`}}>
+                        Who we are
+                      </Link>
+                      <Link to="/contact/" style={{height:`60px`,display:`flex`, alignItems:`center`,justifyContent:`center`}}>
+                        Contact Us
+                      </Link>
+                   </div>
+                 </div>
+                 
+              </div> 
               <Link className="navbar-item desktopView" to="/blog">
                 Blog
               </Link>
