@@ -11,9 +11,9 @@ import { faUserLock } from '@fortawesome/free-solid-svg-icons'
 const NavbarDropDown = class extends React.Component {
   render() {
     return (
-      <div className="navbar-start has-text-centered">
+      <div className="navbar-start has-text-centered" style={{width:`100%`, display:`flex`, justifyContent:`flex-end`, marginRight:`150px`}}>
         <div className="tooltip desktopView" style={{display:`flex`, flexDirection:`row`,alignItems:`center`,justifyContent:`center`}}>
-                Products <FontAwesomeIcon style={{height:`20px`, marginBottom:`5px`, marginLeft:`3px`}}  icon={faSortDown} />
+                <span style={{width:`100px`}}>Products <FontAwesomeIcon style={{height:`20px`, marginBottom:`5px`, marginLeft:`3px`}}  icon={faSortDown} /></span>
                 <div className="tooltiptext box" style={{display:`flex`,flexDirection:`row`}}>
                 {/* <div 
                    
@@ -81,12 +81,12 @@ const NavbarDropDown = class extends React.Component {
                 Who we are
               </Link> */}
 
-              <Link className="navbar-item desktopView" to="/purchase/purchase">
+              <Link className="navbar-item desktopView" to="/purchase/purchase" style={{width:`100px`, display:`flex`, justifyContent:`center`}}>
                 Pricing
               </Link>
               
               <div className="tooltip desktopView" style={{display:`flex`, flexDirection:`row`,alignItems:`center`,justifyContent:`center`}}>
-                Company <FontAwesomeIcon style={{height:`20px`, marginBottom:`5px`, marginLeft:`3px`}}  icon={faSortDown} />
+              <span style={{width:`100px`}}>Company <FontAwesomeIcon style={{height:`20px`, marginBottom:`5px`, marginLeft:`3px`}}  icon={faSortDown} /></span>
                 <div className="tooltiptext box" style={{display:`flex`,flexDirection:`column`, width:`200px`,height:`110px`,marginLeft:`-100px`}}>
                     <div style={{display:`flex`,flexDirection:`column`,width:`100%`, height:`100px`}}>
                       <Link to="/about" style={{height:`50px`,display:`flex`, alignItems:`center`,justifyContent:`center`}}>
@@ -99,7 +99,7 @@ const NavbarDropDown = class extends React.Component {
                  </div>
                  
               </div> 
-              <Link className="navbar-item desktopView" to="/blog">
+              <Link className="navbar-item desktopView" to="/blog" style={{width:`100px`, display:`flex`, justifyContent:`center`}}>
                 Blog
               </Link>
               </div>
