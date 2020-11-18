@@ -19,7 +19,6 @@ p {
 .tooltip {
   position: relative;
   display: inline-block;
-  cursor: pointer;
 }
 
 /* Tooltip text */
@@ -37,7 +36,7 @@ p {
   /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 5;
-  width: 900px;
+  width: 750px;
   height: 280px;
   top: 100%;
   left: 50%;
@@ -51,13 +50,62 @@ p {
   margin-top:-5px;
 }
 
-.test:hover {
-  /* Start the shake animation and make the animation last for 0.5 seconds */
+.dropDownMenuItems {
+  width:95%;
+  height:100%;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  color:black;
+}
+
+.dropDownMenuItems:hover {
+  color:#5457ff;
+  background-color:#f1f6fe;
+}
+
+.navbarDesktopLinkHeader {
+  text-align:left;
+  font-weight:bold;
+  font-size:19px;
+  color:black;
+}
+.navbarDesktopLink:hover > .navbarDesktopLinkHeader {
+  color:rgb(255, 68, 0) !important;
+}
+
+.navbarDesktopLink {
+  display:flex;
+  flex-direction:column;
+  margin-left:10px;
+}
+
+.navbarDesktopEffect {
+  width:35px !important;
+  height:70px;
+  color:rgb(255, 68, 0);
+}
+
+.navbarDesktopLinkContainer {
+  width:100%;
+  height:125px;
+  display:flex;
+  flex-direction:row;
+  padding:15px;
+}
+.navbarDesktopLinkContainer:hover > .navbarDesktopEffect {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.7s;
+
+    /* When the animation is finished, start again */
+    animation-iteration-count: 1;
+}
+/* .test:hover {
   animation: shake 0.7s;
 
-  /* When the animation is finished, start again */
+  
   animation-iteration-count: infinite;
-}
+} */
 
 @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
@@ -86,14 +134,13 @@ p {
 /* About Page */
 .aboutCard {
   font-size:1.25rem; 
-  text-align:justify; 
   box-shadow:5px 5px 25px 0 rgba(46,61,73,.2);
   border-top:1.5px solid red; 
   padding: 10px; 
   border-top-right-radius:12px; 
   border-top-left-radius:12px;
   font-size:1.25rem; 
-  text-align:justify
+  text-align:left;
 }
 
 textarea { 
