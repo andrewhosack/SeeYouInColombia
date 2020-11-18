@@ -13,7 +13,7 @@ const NavbarDropDown = class extends React.Component {
     return (
       <div className="navbar-start has-text-centered" style={{width:`100%`, display:`flex`, justifyContent:`flex-end`, marginRight:`150px`}}>
         <div className="tooltip desktopView" style={{display:`flex`, flexDirection:`row`,alignItems:`center`,justifyContent:`center`}}>
-                <span style={{width:`100px`}}>Products <FontAwesomeIcon style={{height:`20px`, marginBottom:`5px`, marginLeft:`3px`}}  icon={faSortDown} /></span>
+                <span style={{width:`100px`, cursor:`pointer`}}>Products <FontAwesomeIcon style={{height:`20px`, marginBottom:`5px`, marginLeft:`3px`}}  icon={faSortDown} /></span>
                 <div className="tooltiptext box" style={{display:`flex`,flexDirection:`row`}}>
                 {/* <div 
                    
