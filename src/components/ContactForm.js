@@ -161,7 +161,7 @@ export default function ContactForm(props) {
 
       <div style={{display:`flex`, flexDirection:`row`, marginTop:`4rem`}}>
         <FontAwesomeIcon style={{marginTop:`8px`}}  icon={faPhoneAlt} />
-        <span style={{marginLeft:`2rem`, fontSize:`1.3rem`}}> <a href="tel:888-888-8888">888-888-8888</a></span>
+        <span style={{marginLeft:`2rem`, fontSize:`1.3rem`}}> <a href="tel:828-799-0813">828-799-0813</a></span>
       </div>
 
       <div style={{display:`flex`, flexDirection:`row`, marginTop:`2rem`}}>

@@ -67,7 +67,7 @@ const Footer = class extends React.Component {
                   <ul className="menu-list">
                     <li style={{fontSize:`1.2rem`}}>
                       <Link className="navbar-item" to="/purchase/purchase">
-                        Purchase
+                        Pricing
                       </Link>
                     </li>
                     <li style={{fontSize:`1.2rem`}}>
@@ -79,7 +79,7 @@ const Footer = class extends React.Component {
                 </section>
               </div>
               <div className="column is-4 social">
-                <a title="facebook" href="https://www.facebook.com/Enjoy-Safe-Travels-Colombia-105211901403115" target="_blank">
+                <a title="facebook" href="https://fb.me/EnjoySafeTravelsColombia" target="_blank">
                   <img
                     src={facebook}
                     alt="Facebook"
