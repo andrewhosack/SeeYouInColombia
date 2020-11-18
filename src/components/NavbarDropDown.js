@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSortDown } from '@fortawesome/free-solid-svg-icons'
 import { faFilePowerpoint } from '@fortawesome/free-solid-svg-icons'
-import { faSchool } from '@fortawesome/free-solid-svg-icons'
+import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
 import { faPassport } from '@fortawesome/free-solid-svg-icons'
 import { faUserLock } from '@fortawesome/free-solid-svg-icons'
 
@@ -13,7 +13,7 @@ const NavbarDropDown = class extends React.Component {
     return (
       <div className="navbar-start has-text-centered" style={{width:`100%`, display:`flex`, justifyContent:`flex-end`, marginRight:`150px`}}>
         <div className="tooltip desktopView" style={{display:`flex`, flexDirection:`row`,alignItems:`center`,justifyContent:`center`}}>
-                <span style={{width:`100px`, cursor:`pointer`}}>Products <FontAwesomeIcon style={{height:`20px`, marginBottom:`5px`, marginLeft:`3px`}}  icon={faSortDown} /></span>
+                <span style={{width:`120px`, cursor:`pointer`}}>Products <FontAwesomeIcon style={{height:`20px`, marginBottom:`5px`, marginLeft:`3px`}}  icon={faSortDown} /></span>
                 <div className="tooltiptext box" style={{display:`flex`,flexDirection:`row`}}>
                 {/* <div 
                    
@@ -30,9 +30,7 @@ const NavbarDropDown = class extends React.Component {
                     <div style={{display:`flex`,flexWrap:`wrap`,width:`70%`, height:`250px`}}>
                       <Link to="/travelsafely/#customizedPresentation" style={{width:`50%`, height:`125px`}}>
                         <div className="navbarDesktopLinkContainer">
-                          
-                            <FontAwesomeIcon className="navbarDesktopEffect"  icon={faFilePowerpoint} />
-                          
+                          <FontAwesomeIcon className="navbarDesktopEffect"  icon={faFilePowerpoint} />
                           <div className="navbarDesktopLink">
                             <span className="navbarDesktopLinkHeader">Presentations</span>
                             <span style={{textAlign:`left`,color:`gray`, fontSize:`17px`}}>Join us for a presentation about Colombia!</span>
@@ -42,7 +40,7 @@ const NavbarDropDown = class extends React.Component {
                       <Link to="/learnspanish" style={{width:`50%`, height:`125px`}}>
                         <div  className="navbarDesktopLinkContainer">
                           
-                            <FontAwesomeIcon className="navbarDesktopEffect" icon={faSchool} />
+                            <FontAwesomeIcon className="navbarDesktopEffect" icon={faGraduationCap} />
                           
                           <div className="navbarDesktopLink">
                             <span className="navbarDesktopLinkHeader">Learn Spanish</span>
@@ -81,27 +79,42 @@ const NavbarDropDown = class extends React.Component {
                 Who we are
               </Link> */}
 
-              <Link className="navbar-item desktopView" to="/purchase/purchase" style={{width:`100px`, display:`flex`, justifyContent:`center`}}>
+              <Link className="navbar-item desktopView" to="/purchase/purchase" style={{width:`120px`, display:`flex`, justifyContent:`center`}}>
                 Pricing
               </Link>
               
               <div className="tooltip desktopView" style={{display:`flex`, flexDirection:`row`,alignItems:`center`,justifyContent:`center`}}>
-              <span style={{width:`100px`}}>Company <FontAwesomeIcon style={{height:`20px`, marginBottom:`5px`, marginLeft:`3px`}}  icon={faSortDown} /></span>
-                <div className="tooltiptext box" style={{display:`flex`,flexDirection:`column`, width:`150px`,height:`110px`,marginLeft:`-80px`}}>
-                    <div style={{display:`flex`,flexDirection:`column`,width:`100%`, height:`100px`}}>
-                      <Link to="/about" style={{height:`50px`,display:`flex`, alignItems:`center`,justifyContent:`center`}}>
+              <span style={{width:`120px`, cursor:`pointer`}}>Company <FontAwesomeIcon style={{height:`20px`, marginBottom:`5px`, marginLeft:`3px`}}  icon={faSortDown} /></span>
+                <div className="tooltiptext box" style={{display:`flex`,flexDirection:`column`, width:`200px`,height:`80px`,marginLeft:`-80px`}}>
+                    <div style={{display:`flex`,flexDirection:`column`,width:`100%`, height:`70px`}}>
+                      <Link to="/about" style={{height:`35px`,display:`flex`, alignItems:`center`,justifyContent:`center`}}>
                         <span className="dropDownMenuItems">Who we are</span>
                       </Link>
-                      <Link to="/contact/" style={{height:`50px`,display:`flex`, alignItems:`center`,justifyContent:`center`}}>
+                      <a href="https://calendly.com/enjoysafetravelscolombia/20-minute-colombia-consultation" style={{height:`35px`,display:`flex`, alignItems:`center`,justifyContent:`center`}}><span className="dropDownMenuItems">Book a Consultation Call</span></a>
+                   </div>
+                 </div>
+                 
+              </div> 
+              
+              
+              {/* <Link className="navbar-item desktopView" to="/blog" style={{width:`100px`, display:`flex`, justifyContent:`center`}}>
+                Blog
+              </Link> */}
+              <div className="tooltip desktopView" style={{display:`flex`, flexDirection:`row`,alignItems:`center`,justifyContent:`center`}}>
+              <span style={{width:`120px`, cursor:`pointer`}}>Resources <FontAwesomeIcon style={{height:`20px`, marginBottom:`5px`, marginLeft:`3px`}}  icon={faSortDown} /></span>
+                <div className="tooltiptext box" style={{display:`flex`,flexDirection:`column`, width:`200px`,height:`80px`,marginLeft:`-80px`}}>
+                    <div style={{display:`flex`,flexDirection:`column`,width:`100%`, height:`70px`}}>
+                      <Link to="/blog" style={{height:`35px`,display:`flex`, alignItems:`center`,justifyContent:`center`}}>
+                        <span className="dropDownMenuItems">Blog</span>
+                      </Link>
+                      <Link to="/contact/" style={{height:`35px`,display:`flex`, alignItems:`center`,justifyContent:`center`}}>
                       <span className="dropDownMenuItems">Contact Us</span>
                       </Link>
                    </div>
                  </div>
                  
               </div> 
-              <Link className="navbar-item desktopView" to="/blog" style={{width:`100px`, display:`flex`, justifyContent:`center`}}>
-                Blog
-              </Link>
+
               </div>
     )
   }
