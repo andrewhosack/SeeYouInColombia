@@ -84,7 +84,7 @@ const NavbarDropDown = class extends React.Component {
                       <Link to="/about" style={{height:`35px`,display:`flex`, alignItems:`center`,justifyContent:`center`}}>
                         <span className="dropDownMenuItems">Who we are</span>
                       </Link>
-                      <a href="https://calendly.com/enjoysafetravelscolombia/20-minute-colombia-consultation" style={{height:`35px`,display:`flex`, alignItems:`center`,justifyContent:`center`}}><span className="dropDownMenuItems">Book a Consultation Call</span></a>
+                      <a href="https://calendly.com/enjoysafetravelscolombia/20-minute-colombia-consultation" style={{height:`35px`,display:`flex`, alignItems:`center`,justifyContent:`center`}} target="_blank" rel="noreferrer"><span className="dropDownMenuItems">Book a Consultation Call</span></a>
                    </div>
                  </div>
                  

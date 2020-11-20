@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faFacebookMessenger } from '@fortawesome/free-brands-svg-icons'
 
 
 
@@ -160,8 +161,10 @@ export default function ContactForm(props) {
       <h4 style={{margin:`0 0 0`, width:`100%`, textAlign:`left`,fontSize:`1.5rem`}}>Contact Information</h4>
 
       <div style={{display:`flex`, flexDirection:`row`, marginTop:`4rem`}}>
-        <FontAwesomeIcon style={{marginTop:`8px`}}  icon={faPhoneAlt} />
-        <span style={{marginLeft:`2rem`, fontSize:`1.3rem`}}> <a href="tel:828-799-0813">828-799-0813</a></span>
+        {/* <FontAwesomeIcon style={{marginTop:`8px`}}  icon={faPhoneAlt} />
+        <span style={{marginLeft:`2rem`, fontSize:`1.3rem`}}> <a href="tel:828-799-0813">828-799-0813</a></span> */}
+        <FontAwesomeIcon style={{marginTop:`8px`}}  icon={faFacebookMessenger} />
+        <span style={{marginLeft:`2rem`, fontSize:`1.3rem`}}> <a href="http://m.me/EnjoySafeTravelsColombia">@EnjoySafeTravelsColombia</a></span>
       </div>
 
       <div style={{display:`flex`, flexDirection:`row`, marginTop:`2rem`}}>
