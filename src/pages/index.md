@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Colombia Information Designed Around You
-image: /img/gabriel-porras-5w80e_wanvi-unsplash.jpg
+image: /img/parrotBanner.jpg
 heading: You've never had a friend like us!
 subheading: Learn, Explore, and Prepare to enjoy Colombia to the fullest.
 mainpitch:
