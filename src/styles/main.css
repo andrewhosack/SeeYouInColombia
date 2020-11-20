@@ -21,6 +21,10 @@ p {
   display: inline-block;
 }
 
+.tooltip:hover > span {
+  color:#5457ff;
+}
+
 /* Tooltip text */
 .tooltip .tooltiptext {
   visibility: hidden;
