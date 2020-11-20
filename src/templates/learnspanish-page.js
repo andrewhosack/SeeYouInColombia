@@ -26,6 +26,7 @@ export const LearnSpanishPageTemplate = ({
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
+        position:`right 35`,
       }}
     >
       <h2
