@@ -12,7 +12,7 @@ const NavbarDropDown = class extends React.Component {
   render() {
     return (
       <div className="navbar-start has-text-centered" style={{display:`flex`,justifyContent:`right`, left:`0`, right:`0`, marginLeft:`auto`, marginRight:`auto`, position:`absolute`}}>
-        <div className="mobileView box" style={{boxShadow:`5px 5px 25px 0 rgba(46,61,73,.2)`,maxWidth:`450px`,display:`flex`, flexDirection:`column`,borderTop: `1.5px solid red`, padding: `10px` ,borderTopRightRadius: `12px`,borderTopLeftRadius: `12px`,margin:`20px`,marginTop:`0px`,overflowY: `scroll`,height:`650px`}}>
+        <div className="mobileView box" style={{boxShadow:`5px 5px 25px 0 rgba(46,61,73,.2)`,maxWidth:`450px`,display:`flex`, flexDirection:`column`,borderTop: `1.5px solid red`, padding: `10px` ,borderTopRightRadius: `12px`,borderTopLeftRadius: `12px`,margin:`-10px 20px 20px`,overflowY: `scroll`,height:`650px`}}>
                 
                 <div style={{display:`flex`,flexDirection:`row`}}>
             

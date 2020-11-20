@@ -21,7 +21,7 @@ const Footer = class extends React.Component {
         <div className="content has-text-centered has-background-black has-text-white-ter">
           <div className="container has-background-black has-text-white-ter">
             <div style={{ maxWidth: '100vw' }} className="columns">
-              <div className="column is-4">
+              <div className="column is-2">
                 <section className="menu">
                   <ul className="menu-list">
                     <li style={{fontSize:`1.2rem`}}>
@@ -62,7 +62,7 @@ const Footer = class extends React.Component {
                   </ul>
                 </section>
               </div>
-              <div className="column is-4">
+              <div className="column is-2">
                 <section>
                   <ul className="menu-list">
                     <li style={{fontSize:`1.2rem`}}>
@@ -73,6 +73,17 @@ const Footer = class extends React.Component {
                     <li style={{fontSize:`1.2rem`}}>
                       <Link className="navbar-item" to="/blog">
                         Blog
+                      </Link>
+                    </li>
+                  </ul>
+                </section>
+              </div>
+              <div className="column is-2">
+                <section>
+                  <ul className="menu-list">
+                    <li style={{fontSize:`1.2rem`}}>
+                      <Link className="navbar-item" to="/termsandconditions">
+                        Terms and Conditions
                       </Link>
                     </li>
                   </ul>

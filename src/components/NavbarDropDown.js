@@ -13,7 +13,7 @@ const NavbarDropDown = class extends React.Component {
     return (
       <div className="navbar-start has-text-centered" style={{width:`100%`, display:`flex`, justifyContent:`flex-end`, marginRight:`150px`}}>
         <div className="tooltip desktopView" style={{display:`flex`, flexDirection:`row`,alignItems:`center`,justifyContent:`center`}}>
-                <span style={{width:`120px`, cursor:`pointer`}}>Products <FontAwesomeIcon style={{height:`20px`, marginBottom:`5px`, marginLeft:`3px`}}  icon={faSortDown} /></span>
+                <span style={{width:`120px`, cursor:`pointer`}}>Products <FontAwesomeIcon style={{height:`20px`, marginBottom:`5px`, marginLeft:`3px`,color:`black`}}  icon={faSortDown} /></span>
                 <div className="tooltiptext box" style={{display:`flex`,flexDirection:`row`}}>
                 {/* <div 
                    
@@ -28,7 +28,7 @@ const NavbarDropDown = class extends React.Component {
                     </div>
                   </div>
                     <div style={{display:`flex`,flexWrap:`wrap`,width:`70%`, height:`250px`}}>
-                      <Link to="/travelsafely/#customizedPresentation" style={{width:`50%`, height:`125px`}}>
+                      <Link to="/travelsafely/#customizedPresentation" style={{width:`50%`}}>
                         <div className="navbarDesktopLinkContainer">
                           <FontAwesomeIcon className="navbarDesktopEffect"  icon={faFilePowerpoint} />
                           <div className="navbarDesktopLink">
@@ -37,22 +37,18 @@ const NavbarDropDown = class extends React.Component {
                           </div>
                         </div>
                       </Link>
-                      <Link to="/learnspanish" style={{width:`50%`, height:`125px`}}>
+                      <Link to="/learnspanish" style={{width:`50%`}}>
                         <div  className="navbarDesktopLinkContainer">
-                          
                             <FontAwesomeIcon className="navbarDesktopEffect" icon={faGraduationCap} />
-                          
                           <div className="navbarDesktopLink">
                             <span className="navbarDesktopLinkHeader">Learn Spanish</span>
                             <span style={{textAlign:`left`,color:`gray`, fontSize:`17px`}}>Hablas Espanol? Learn Colombian Spanish with us!</span>
                           </div>
                         </div>
                       </Link>
-                      <Link to="/travelsafely" style={{width:`50%`, height:`125px`}}>
+                      <Link to="/travelsafely" style={{width:`50%`}}>
                         <div  className="navbarDesktopLinkContainer">
-                          
                             <FontAwesomeIcon className="navbarDesktopEffect" icon={faPassport} />
-                          
                           <div className="navbarDesktopLink">
                             <span className="navbarDesktopLinkHeader">Travel Consulting</span>
                             <span style={{textAlign:`left`,color:`gray`, fontSize:`17px`}}>Need some help managing and planning your trip? We can help!</span>
@@ -60,9 +56,7 @@ const NavbarDropDown = class extends React.Component {
                         </div>
                       </Link>
                       <div  className="navbarDesktopLinkContainer" style={{width:`50%`}}>
-                        
                           <FontAwesomeIcon className="navbarDesktopEffect"  icon={faUserLock} />
-                        
                         <div className="navbarDesktopLink">
                           <span className="navbarDesktopLinkHeader">Members Area</span>
                           <span style={{textAlign:`left`,color:`gray`, fontSize:`17px`}}>Join our members area for exclusive Colombian content!</span>
@@ -79,12 +73,12 @@ const NavbarDropDown = class extends React.Component {
                 Who we are
               </Link> */}
 
-              <Link className="navbar-item desktopView" to="/purchase/purchase" style={{width:`120px`, display:`flex`, justifyContent:`center`}}>
-                Pricing
+              <Link className="tooltip navbar-item desktopView" to="/purchase/purchase" style={{width:`120px`, display:`flex`, justifyContent:`center`}}>
+                <span>Pricing</span>
               </Link>
               
               <div className="tooltip desktopView" style={{display:`flex`, flexDirection:`row`,alignItems:`center`,justifyContent:`center`}}>
-              <span style={{width:`120px`, cursor:`pointer`}}>Company <FontAwesomeIcon style={{height:`20px`, marginBottom:`5px`, marginLeft:`3px`}}  icon={faSortDown} /></span>
+              <span style={{width:`120px`, cursor:`pointer`}}>Company <FontAwesomeIcon style={{height:`20px`, marginBottom:`5px`, marginLeft:`3px`,color:`black`}}  icon={faSortDown} /></span>
                 <div className="tooltiptext box" style={{display:`flex`,flexDirection:`column`, width:`200px`,height:`80px`,marginLeft:`-80px`}}>
                     <div style={{display:`flex`,flexDirection:`column`,width:`100%`, height:`70px`}}>
                       <Link to="/about" style={{height:`35px`,display:`flex`, alignItems:`center`,justifyContent:`center`}}>
@@ -101,7 +95,7 @@ const NavbarDropDown = class extends React.Component {
                 Blog
               </Link> */}
               <div className="tooltip desktopView" style={{display:`flex`, flexDirection:`row`,alignItems:`center`,justifyContent:`center`}}>
-              <span style={{width:`120px`, cursor:`pointer`}}>Resources <FontAwesomeIcon style={{height:`20px`, marginBottom:`5px`, marginLeft:`3px`}}  icon={faSortDown} /></span>
+              <span style={{width:`120px`, cursor:`pointer`}}>Resources <FontAwesomeIcon style={{height:`20px`, marginBottom:`5px`, marginLeft:`3px`,color:`black`}}  icon={faSortDown} /></span>
                 <div className="tooltiptext box" style={{display:`flex`,flexDirection:`column`, width:`200px`,height:`80px`,marginLeft:`-80px`}}>
                     <div style={{display:`flex`,flexDirection:`column`,width:`100%`, height:`70px`}}>
                       <Link to="/blog" style={{height:`35px`,display:`flex`, alignItems:`center`,justifyContent:`center`}}>

@@ -80,7 +80,7 @@ const Navbar = class extends React.Component {
           <div
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
-            style={{fontSize:`1.2rem`}}
+            style={{fontSize:`1.2rem`,padding:`0`}}
           >
               <NavbarDropDown/>
               {/* <div on={() => this.toggleHamburger()}> */}
